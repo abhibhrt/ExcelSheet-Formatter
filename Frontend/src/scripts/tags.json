@@ -1,0 +1,3256 @@
+[
+  {
+    "category": "Packaging & Labeling Industry",
+    "item": [
+      {
+        "company": "Amcor",
+        "urn": "6311"
+      },
+      {
+        "company": "CCL Industries",
+        "urn": "66963"
+      },
+      {
+        "company": "Berry Global, Inc.",
+        "urn": "11152"
+      },
+      {
+        "company": "Fuji Seal International, Inc.",
+        "urn": "564856"
+      },
+      {
+        "company": "MULTI COLOR",
+        "urn": "23654711"
+      },
+      {
+        "company": "Huhtamaki",
+        "urn": "8596"
+      },
+      {
+        "company": "Clondalkin Group UK cartons",
+        "urn": "2021000"
+      },
+      {
+        "company": "Klöckner Pentaplast",
+        "urn": "44486"
+      },
+      {
+        "company": "Avery Dennison",
+        "urn": "3321"
+      },
+      {
+        "company": "Hammer Packaging Group",
+        "urn": "1032946"
+      },
+      {
+        "company": "Macfarlane Packaging",
+        "urn": "2576725"
+      },
+      {
+        "company": "Fort Dearborn Partners",
+        "urn": "134059"
+      },
+      {
+        "company": "Coveris Group",
+        "urn": "32168"
+      },
+      {
+        "company": "Bonset America Corporation",
+        "urn": "1486350"
+      },
+      {
+        "company": "Constantia Flexibles",
+        "urn": "5058565"
+      },
+      {
+        "company": "Brady Corporation",
+        "urn": "6213"
+      },
+      {
+        "company": "Polysack Flexible Packaging",
+        "urn": "2215986"
+      },
+      {
+        "company": "UFLEX Limited",
+        "urn": "30188466"
+      },
+      {
+        "company": "VPFX",
+        "urn": "31129433"
+      },
+      {
+        "company": "Dow Packaging & Specialty Plastics",
+        "urn": "4807559"
+      },
+      {
+        "company": "Taghleef Industries",
+        "urn": "329835"
+      },
+      {
+        "company": "Sealed Air Corporation",
+        "urn": "7663"
+      },
+      {
+        "company": "Innovia Films",
+        "urn": "32863"
+      },
+      {
+        "company": "Yupo Corporation America",
+        "urn": "888712"
+      },
+      {
+        "company": "Cosmo Films",
+        "urn": "460629"
+      },
+      {
+        "company": "RPC Group Limited",
+        "urn": "504965"
+      },
+      {
+        "company": "InterFlex Group",
+        "urn": "857199"
+      },
+      {
+        "company": "Cenveo",
+        "urn": "10156"
+      },
+      {
+        "company": "Glenroy, Inc.",
+        "urn": "102066"
+      },
+      {
+        "company": "Sigma Plastics Group",
+        "urn": "76552081"
+      },
+      {
+        "company": "Sonoco SL",
+        "urn": "3860370"
+      },
+      {
+        "company": "American Fuji Seal",
+        "urn": "79250"
+      },
+      {
+        "company": "Cenveo",
+        "urn": "10156"
+      },
+      {
+        "company": "TekniPlex",
+        "urn": "245148"
+      },
+      {
+        "company": "LEIPA Group",
+        "urn": "831480"
+      },
+      {
+        "company": "Pixelle Specialty Solutions",
+        "urn": "34369573"
+      },
+      {
+        "company": "Munksjö",
+        "urn": "1462413"
+      }
+    ]
+  },
+  {
+    "category": "Cosmetics & Personal Care",
+    "item": [
+      {
+        "urn": "1662",
+        "company": "L'Oréal"
+      },
+      {
+        "urn": "1513545",
+        "company": "Schwarzkopf Professional"
+      },
+      {
+        "urn": "165730",
+        "company": "Revlon"
+      },
+      {
+        "urn": "14769",
+        "company": "Clairol"
+      },
+      {
+        "urn": "2280182",
+        "company": "Manic Panic NYC Inc"
+      },
+      {
+        "urn": "13716144",
+        "company": "Arctic Fox"
+      },
+      {
+        "urn": "10813252",
+        "company": "Good Dye Young"
+      },
+      {
+        "urn": "66915403",
+        "company": "ADORE"
+      },
+      {
+        "urn": "95103799",
+        "company": "Punky Colour"
+      },
+      {
+        "urn": "1582042",
+        "company": "Joico Zotos Europe"
+      },
+      {
+        "urn": "2536316",
+        "company": "PRAVANA"
+      },
+      {
+        "urn": "134148",
+        "company": "Godrej Properties Limited"
+      },
+      {
+        "urn": "808382",
+        "company": "SPLAT Global"
+      },
+      {
+        "urn": "12880019",
+        "company": "Crazy Colors"
+      },
+      {
+        "urn": "94429295",
+        "company": "Brite Organix"
+      },
+      {
+        "urn": "258644",
+        "company": "Henkel"
+      },
+      {
+        "urn": "1248",
+        "company": "Unilever"
+      },
+      {
+        "urn": "4059",
+        "company": "The Estée Lauder Companies Inc."
+      },
+      {
+        "urn": "5058",
+        "company": "Coty"
+      },
+      {
+        "urn": "3066118",
+        "company": "Madison Reed"
+      },
+      {
+        "urn": "2059414",
+        "company": "dpHUE"
+      },
+      {
+        "urn": "40830694",
+        "company": "Celeb Luxury"
+      },
+      {
+        "urn": "2756399",
+        "company": "Lime Crime"
+      },
+      {
+        "urn": "1192900",
+        "company": "Moroccanoil"
+      },
+      {
+        "urn": "2498695",
+        "company": "Matrix"
+      },
+      {
+        "urn": "52260",
+        "company": "John Paul Mitchell Systems"
+      },
+      {
+        "urn": "8925080",
+        "company": "Tressa Inc"
+      },
+      {
+        "urn": "105218518",
+        "company": "Color Wow UK, a Federici Brand"
+      },
+      {
+        "urn": "68715",
+        "company": "Goldwell"
+      },
+      {
+        "urn": "9420191",
+        "company": "Alfaparf Milano Argentina"
+      },
+      {
+        "urn": "878177",
+        "company": "Keune Haircosmetics | B Corp"
+      },
+      {
+        "urn": "1262561",
+        "company": "Kenra Professional"
+      },
+      {
+        "urn": "97795269",
+        "company": "Dr. Sebastian Grillo. Professional Smile"
+      },
+      {
+        "urn": "20439849",
+        "company": "Rusk Media"
+      },
+      {
+        "urn": "3534966",
+        "company": "NATULIQUE"
+      },
+      {
+        "urn": "83523545",
+        "company": "Ecocolors"
+      },
+      {
+        "urn": "27184198",
+        "company": "Color Street HQ: Innovative Cosmetic Concepts"
+      },
+      {
+        "company": "Supergoop!",
+        "urn": "10107844"
+      },
+      {
+        "company": "COOLA",
+        "urn": "1891852"
+      }
+    ]
+  },
+  {
+    "category": "Chemical & Industrial Manufacturing",
+    "item": [
+      {
+        "company": "3M",
+        "urn": "1864"
+      },
+      {
+        "company": "DuPont",
+        "urn": "2155"
+      },
+      {
+        "company": "Solvay",
+        "urn": "4114"
+      },
+      {
+        "company": "Daikin Industries, Ltd.",
+        "urn": "10563592"
+      },
+      {
+        "company": "AGC Chemicals Europe",
+        "urn": "926818"
+      },
+      {
+        "company": "The Chemours Company",
+        "urn": "9392485"
+      },
+      {
+        "company": "Shin-Etsu",
+        "urn": "65594"
+      },
+      {
+        "company": "HaloPolymer",
+        "urn": "470018"
+      },
+      {
+        "company": "Zhejiang Juhua Co., Ltd. Sulphuric Acid Factory",
+        "urn": "44345110"
+      },
+      {
+        "company": "Shandong DONGYUE Polymer material Co., ltd.",
+        "urn": "42533711"
+      },
+      {
+        "company": "Gujarat Fluorochemicals Limited",
+        "urn": "1000008"
+      },
+      {
+        "company": "Arkema",
+        "urn": "9884"
+      },
+      {
+        "company": "BASF",
+        "urn": "2633"
+      },
+      {
+        "company": "LANXESS",
+        "urn": "164682"
+      },
+      {
+        "company": "Covestro",
+        "urn": "9099"
+      },
+      {
+        "company": "Toray Industries, Inc.",
+        "urn": "4856921"
+      },
+      {
+        "company": "Mitsubishi Chemical Group",
+        "urn": "74968582"
+      },
+      {
+        "company": "Asahi Kasei",
+        "urn": "33247353"
+      },
+      {
+        "company": "Mitsui Chemicals Group",
+        "urn": "104066"
+      },
+      {
+        "company": "SK Chemicals GmbH",
+        "urn": "71485761"
+      },
+      {
+        "company": "SABIC",
+        "urn": "165806"
+      },
+      {
+        "company": "Evonik",
+        "urn": "214756"
+      },
+      {
+        "company": "Clariant",
+        "urn": "163100"
+      },
+      {
+        "company": "W. L. Gore & Associates",
+        "urn": "5996"
+      },
+      {
+        "company": "Parker Hannifin",
+        "urn": "4591"
+      },
+      {
+        "company": "Trelleborg Industri AB",
+        "urn": "8357401"
+      },
+      {
+        "company": "Saint-Gobain",
+        "urn": "2981"
+      },
+      {
+        "company": "Nitto Denko Corporation",
+        "urn": "15248490"
+      },
+      {
+        "company": "TE Connectivity",
+        "urn": "2059"
+      },
+      {
+        "company": "Victrex",
+        "urn": "65949"
+      },
+      {
+        "company": "Ensinger GmbH",
+        "urn": "1431999"
+      },
+      {
+        "company": "Quadrant AG",
+        "urn": "5647270"
+      },
+      {
+        "company": "Röchling Group",
+        "urn": "41050369"
+      },
+      {
+        "company": "PolyOne Polymers India Private Limited",
+        "urn": "27982313"
+      },
+      {
+        "company": "Celanese",
+        "urn": "162947"
+      },
+      {
+        "company": "INEOS",
+        "urn": "5973"
+      },
+      {
+        "company": "Sumitomo Chemical Latin America",
+        "urn": "2190034"
+      },
+      {
+        "company": "Teijin Limited",
+        "urn": "107609"
+      },
+      {
+        "company": "LG Chem",
+        "urn": "44599"
+      }
+    ]
+  },
+  {
+    "category": "Automotive & Manufacturing",
+    "item": [
+      {
+        "company": "Bosch",
+        "urn": "2508619"
+      },
+      {
+        "company": "Dana Incorporated",
+        "urn": "5089"
+      },
+      {
+        "company": "Modine do Brasil Sistemas Térmicos Ltda",
+        "urn": "963318"
+      },
+      {
+        "company": "Kelvion",
+        "urn": "10297346"
+      },
+      {
+        "company": "Hydrogenics Europe NV",
+        "urn": "23032664"
+      },
+      {
+        "company": "Ballard Power Systems",
+        "urn": "10026"
+      },
+      {
+        "company": "Alfa Laval",
+        "urn": "5050"
+      },
+      {
+        "company": "SGL Carbon",
+        "urn": "32646"
+      },
+      {
+        "company": "Hexagon Purus",
+        "urn": "27018280"
+      },
+      {
+        "company": "Chart Industries, Inc.",
+        "urn": "27725"
+      },
+      {
+        "company": "Mitsubishi Heavy Industries",
+        "urn": "26038"
+      },
+      {
+        "company": "Johnson Matthey",
+        "urn": "7655"
+      },
+      {
+        "company": "Faurecia",
+        "urn": "4062"
+      },
+      {
+        "company": "Lear Corporation",
+        "urn": "3701"
+      },
+      {
+        "company": "Adient",
+        "urn": "10387626"
+      },
+      {
+        "company": "Toyota Boshoku America",
+        "urn": "393562"
+      },
+      {
+        "company": "Qualcomm",
+        "urn": "2017"
+      },
+      {
+        "company": "Momentum AI Dynamics",
+        "urn": "103442043"
+      },
+      {
+        "company": "Plugless Power, Inc",
+        "urn": "71506992"
+      },
+      {
+        "company": "HEVO",
+        "urn": "2658760"
+      },
+      {
+        "company": "Electreon",
+        "urn": "11678469"
+      },
+      {
+        "company": "Bosch Global Software Technologies",
+        "urn": "586240"
+      },
+      {
+        "company": "Continental",
+        "urn": "3534"
+      },
+      {
+        "company": "Eaton",
+        "urn": "2599"
+      },
+      {
+        "company": "Schneider Electric",
+        "urn": "2329"
+      },
+      {
+        "company": "TDK",
+        "urn": "7505"
+      },
+      {
+        "company": "Nidec Electric Motor Serbia",
+        "urn": "80954423"
+      },
+      {
+        "company": "Toshiba",
+        "urn": "157301"
+      },
+      {
+        "company": "Toyota Motor Corporation",
+        "urn": "2109"
+      },
+      {
+        "company": "BMW Group",
+        "urn": "2387"
+      },
+      {
+        "company": "Mercedes-Benz Group AG",
+        "urn": "79164315"
+      },
+      {
+        "company": "Honda Motor Co. Ltd.",
+        "urn": "2225050"
+      },
+      {
+        "company": "Nissan Motor Corporation",
+        "urn": "221027"
+      },
+      {
+        "company": "Ford Motor Company",
+        "urn": "1483"
+      },
+      {
+        "company": "General Motors",
+        "urn": "1472"
+      },
+      {
+        "company": "Porsche Cars North America",
+        "urn": "9133"
+      },
+      {
+        "company": "ABB",
+        "urn": "277579"
+      },
+      {
+        "company": "Tesla",
+        "urn": "15564"
+      },
+      {
+        "company": "Siemens",
+        "urn": "1043"
+      }
+    ]
+  },
+  {
+    "category": "Aerospace & Defense",
+    "item": [
+      {
+        "company": "Tata Boeing Aerospace Limited",
+        "urn": "19008756"
+      },
+      {
+        "company": "Larimart S.p.A. - Leonardo Company",
+        "urn": "80479715"
+      },
+      {
+        "company": "Boeing",
+        "urn": "1384"
+      },
+      {
+        "company": "Airbus Helicopters",
+        "urn": "7312"
+      },
+      {
+        "company": "Lockheed Martin",
+        "urn": "1319"
+      },
+      {
+        "company": "BAE Systems",
+        "urn": "1882"
+      },
+      {
+        "company": "IAI - Israel Aerospace Industries",
+        "urn": "10057737"
+      },
+      {
+        "company": "Kaman Corporation",
+        "urn": "15242812"
+      },
+      {
+        "company": "Piasecki Aircraft Corporation",
+        "urn": "1041535"
+      },
+      {
+        "company": "AVIC International Holding Corporation",
+        "urn": "8507044"
+      },
+      {
+        "company": "Russian Helicopters, JSC",
+        "urn": "914552"
+      },
+      {
+        "company": "Kawasaki Heavy Industries, Ltd.",
+        "urn": "83150"
+      },
+      {
+        "company": "GKN Aerospace",
+        "urn": "10967"
+      },
+      {
+        "company": "Honda Aircraft Company",
+        "urn": "15262835"
+      },
+      {
+        "company": "Safran",
+        "urn": "521777"
+      },
+      {
+        "company": "AVIATION JOBS",
+        "urn": "81841466"
+      },
+      {
+        "company": "General Dynamics Electric Boat",
+        "urn": "12643"
+      },
+      {
+        "company": "Pratt & Whitney",
+        "urn": "2425"
+      },
+      {
+        "company": "Honeywell Aerospace Technologies Toulouse",
+        "urn": "101903020"
+      },
+      {
+        "company": "Collins Aerospace",
+        "urn": "11695727"
+      },
+      {
+        "company": "Thales Alenia Space",
+        "urn": "239078"
+      },
+      {
+        "company": "Leonardo Canada - Electronics",
+        "urn": "233543"
+      },
+      {
+        "company": "Raytheon Technologies",
+        "urn": "97902195"
+      },
+      {
+        "company": "Northrop Grumman",
+        "urn": "1412"
+      },
+      {
+        "company": "L3Harris Technologies",
+        "urn": "40745219"
+      },
+      {
+        "company": "Elbit Systems Israel",
+        "urn": "163594"
+      },
+      {
+        "company": "Saab",
+        "urn": "3209"
+      },
+      {
+        "company": "Diehl Defence",
+        "urn": "37785964"
+      },
+      {
+        "company": "MBDA",
+        "urn": "164883"
+      },
+      {
+        "company": "Rheinmetall",
+        "urn": "1568176"
+      },
+      {
+        "company": "Turkish Aerospace",
+        "urn": "14900"
+      },
+      {
+        "company": "Korea Aerospace Industries",
+        "urn": "42739614"
+      },
+      {
+        "company": "Hindustan Aeronautics Limited",
+        "urn": "400695"
+      },
+      {
+        "company": "Denel Dynamics",
+        "urn": "882402"
+      },
+      {
+        "company": "Aerospike",
+        "urn": "2696852"
+      },
+      {
+        "company": "Ukroboronprom",
+        "urn": "27083625"
+      },
+      {
+        "company": "JMC Aviation",
+        "urn": "967563"
+      },
+      {
+        "company": "SpaceX",
+        "urn": "30846"
+      },
+      {
+        "company": "NASA - National Aeronautics and Space Administration",
+        "urn": "2003"
+      }
+    ]
+  },
+  {
+    "category": "Chemical & Materials",
+    "item": [
+      {
+        "company": "BASF",
+        "urn": "2633"
+      },
+      {
+        "company": "Evonik",
+        "urn": "214756"
+      },
+      {
+        "company": "Arkema",
+        "urn": "9884"
+      },
+      {
+        "company": "3D Systems Corporation",
+        "urn": "162213"
+      },
+      {
+        "company": "Mitsubishi Chemical Group",
+        "urn": "74968582"
+      },
+      {
+        "company": "Toray Industries, Inc.",
+        "urn": "4856921"
+      },
+      {
+        "company": "Asahi Kasei",
+        "urn": "33247353"
+      },
+      {
+        "company": "Fujikura Ltd.",
+        "urn": "10148553"
+      },
+      {
+        "company": "Sumitomo Electric Industries Carbide Australia (SEI)",
+        "urn": "91427252"
+      },
+      {
+        "company": "Sichuan Huiyuan Optical Communications Co., Ltd.",
+        "urn": "3994599"
+      },
+      {
+        "company": "Optimedia",
+        "urn": "22285234"
+      },
+      {
+        "company": "NKF Electronics B.V.",
+        "urn": "6912042"
+      },
+      {
+        "company": "Chromis Technologies",
+        "urn": "2920587"
+      },
+      {
+        "company": "Ofs Fitel",
+        "urn": "4301262"
+      },
+      {
+        "company": "Leoni Studer Hard AG",
+        "urn": "8947801"
+      },
+      {
+        "company": "SABIC",
+        "urn": "165806"
+      },
+      {
+        "company": "PolyOne",
+        "urn": "80443975"
+      },
+      {
+        "company": "Avago Technologies Limited",
+        "urn": "5915933"
+      },
+      {
+        "company": "PrysmianGroup",
+        "urn": "99628195"
+      },
+      {
+        "company": "Shenzhen Dasheng Optoelectronic Technology Co., Ltd",
+        "urn": "42522557"
+      },
+      {
+        "company": "Yangtze Optical Fibre and Cable Joint Stock Limited Company(YOFC)",
+        "urn": "3694307"
+      },
+      {
+        "company": "FIBERFIN INC.",
+        "urn": "15515016"
+      },
+      {
+        "company": "KeiWare Software Applications Inc.",
+        "urn": "2258737"
+      },
+      {
+        "company": "Sico Technology GmbH",
+        "urn": "88068395"
+      },
+      {
+        "company": "Teijin Limited",
+        "urn": "107609"
+      },
+      {
+        "company": "Corning Incorporated",
+        "urn": "3678"
+      },
+      {
+        "company": "Wuxi Xingfu Electric Blanket Factory",
+        "urn": "44238133"
+      },
+      {
+        "company": "Himachal Futuristic Communications Limited / Quadrant / Videocon",
+        "urn": "33798271"
+      },
+      {
+        "company": "GigaCom BeNeLux",
+        "urn": "10829793"
+      },
+      {
+        "company": "Optical Cable Corporation",
+        "urn": "76607"
+      },
+      {
+        "company": "Amphenol Fiber Systems International",
+        "urn": "891125"
+      },
+      {
+        "company": "SAB Bröckskes GmbH & Co. KG",
+        "urn": "3490408"
+      },
+      {
+        "company": "Lucent Technologies Optical Networks (China) Ltd",
+        "urn": "44405120"
+      },
+      {
+        "company": "CommScope",
+        "urn": "163163"
+      },
+      {
+        "company": "Koninklijke DSM N.V.",
+        "urn": "62196661"
+      },
+      {
+        "company": "Thorlabs",
+        "urn": "66323"
+      },
+      {
+        "company": "Nexans S.A.",
+        "urn": "57282417"
+      }
+    ]
+  },
+  {
+    "category": "Pharmaceutical Health",
+    "item": [
+      {
+        "company": "Zydus Group",
+        "urn": "38360"
+      },
+      {
+        "company": "Fresenius Kabi",
+        "urn": "9711"
+      },
+      {
+        "company": "Pfizer",
+        "urn": "1185"
+      },
+      {
+        "company": "Merck Group",
+        "urn": "1485"
+      },
+      {
+        "company": "Novartis",
+        "urn": "1406"
+      },
+      {
+        "company": "Sanofi",
+        "urn": "1642"
+      },
+      {
+        "company": "Bayer Sverige",
+        "urn": "18979525"
+      },
+      {
+        "company": "AstraZeneca",
+        "urn": "1603"
+      },
+      {
+        "company": "Roche Italia",
+        "urn": "75393818"
+      },
+      {
+        "company": "Amgen",
+        "urn": "2068"
+      },
+      {
+        "company": "Eli Lilly and Company",
+        "urn": "1663"
+      },
+      {
+        "company": "Moderna",
+        "urn": "2281734"
+      },
+      {
+        "company": "Gilead Sciences",
+        "urn": "163993"
+      },
+      {
+        "company": "Biogen",
+        "urn": "3961"
+      },
+      {
+        "company": "Takeda Oncology",
+        "urn": "4682"
+      },
+      {
+        "company": "Cipla",
+        "urn": "37173"
+      },
+      {
+        "company": "Dr. Reddy's Laboratories",
+        "urn": "8126"
+      },
+      {
+        "company": "SUN PHARMA",
+        "urn": "484735"
+      },
+      {
+        "company": "Lupin",
+        "urn": "247819"
+      },
+      {
+        "company": "Teva Pharmaceuticals",
+        "urn": "5239"
+      },
+      {
+        "company": "Bristol Myers Squibb",
+        "urn": "1773"
+      },
+      {
+        "company": "Boehringer Ingelheim",
+        "urn": "3235"
+      },
+      {
+        "company": "UCB Pharma Türkiye",
+        "urn": "106143225"
+      },
+      {
+        "company": "Fresenius Kabi",
+        "urn": "9711"
+      },
+      {
+        "company": "Mylan",
+        "urn": "14264"
+      },
+      {
+        "company": "Alkem Laboratories Ltd.",
+        "urn": "374446"
+      },
+      {
+        "company": "Organon",
+        "urn": "3605"
+      },
+      {
+        "company": "Otsuka Pharmaceutical Companies (U.S.)",
+        "urn": "296229"
+      },
+      {
+        "company": "Jazz Pharmaceuticals",
+        "urn": "164525"
+      },
+      {
+        "company": "Bio Marin Pharmaceutical",
+        "urn": "5921912"
+      },
+      {
+        "company": "Vertex Pharmaceuticals Inc",
+        "urn": "9711613"
+      },
+      {
+        "company": "Chiesi Group",
+        "urn": "40291"
+      },
+      {
+        "company": "Ipsen",
+        "urn": "8511"
+      },
+      {
+        "company": "Servier",
+        "urn": "165926"
+      },
+      {
+        "company": "Glenmark Pharmaceuticals",
+        "urn": "16351"
+      },
+      {
+        "company": "AUROBINDO PHARMA LTD",
+        "urn": "71041904"
+      },
+      {
+        "company": "Mallinckrodt Pharmaceuticals",
+        "urn": "3192"
+      }
+    ]
+  },
+  {
+    "category": "Electrical & Electronics Manufacturing",
+    "item": [
+      {
+        "company": "Dymax Inc.",
+        "urn": "795418"
+      },
+      {
+        "company": "Qioptiq, An Excelitas Technologies Company",
+        "urn": "969162"
+      },
+      {
+        "company": "Excelitas Technologies Corp.",
+        "urn": "1552540"
+      },
+      {
+        "company": "Nordson Corporation",
+        "urn": "10456"
+      },
+      {
+        "company": "Phoseon Technology",
+        "urn": "49754"
+      },
+      {
+        "company": "Heraeus Electronics",
+        "urn": "55059187"
+      },
+      {
+        "company": "Dr. Hönle AG UV Technology",
+        "urn": "7203839"
+      },
+      {
+        "company": "Panasonic North America",
+        "urn": "2610"
+      },
+      {
+        "company": "IST METZ GmbH & Co. KG",
+        "urn": "3853074"
+      },
+      {
+        "company": "American Ultraviolet",
+        "urn": "906741"
+      },
+      {
+        "company": "Hanovia Specialty Lighting LLC",
+        "urn": "1230879"
+      },
+      {
+        "company": "Benford UV Clean",
+        "urn": "65893793"
+      },
+      {
+        "company": "GEW (EC) Limited",
+        "urn": "9184093"
+      },
+      {
+        "company": "Miltec UV",
+        "urn": "5118296"
+      },
+      {
+        "company": "Uvexs Incorporated",
+        "urn": "4592139"
+      },
+      {
+        "company": "Air Motion Systems",
+        "urn": "8356721"
+      },
+      {
+        "company": "Uvitron International",
+        "urn": "3559985"
+      },
+      {
+        "company": "Baldwin Technology",
+        "urn": "854943"
+      },
+      {
+        "company": "PRIME UV-IR Systems",
+        "urn": "1082083"
+      },
+      {
+        "company": "Thorlabs",
+        "urn": "66323"
+      },
+      {
+        "company": "Dongguan BaoBao Technology Co., Ltd",
+        "urn": "18623666"
+      },
+      {
+        "company": "SPDI Inc.",
+        "urn": "16193915"
+      },
+      {
+        "company": "Ushio America, Inc.",
+        "urn": "124434"
+      },
+      {
+        "company": "BREL International Components, Inc.",
+        "urn": "5480464"
+      },
+      {
+        "company": "Hamamatsu Photonics France",
+        "urn": "23269500"
+      },
+      {
+        "company": "IST AMERICA Corporation",
+        "urn": "23684957"
+      },
+      {
+        "company": "SES Systemtechnik & uv-electronic GmbH",
+        "urn": "36405579"
+      },
+      {
+        "company": "AETEK USA",
+        "urn": "64718713"
+      },
+      {
+        "company": "Alpha-Cure Ltd",
+        "urn": "1145378"
+      },
+      {
+        "company": "Gewiss",
+        "urn": "49008"
+      },
+      {
+        "company": "Satyam Groups of Industries",
+        "urn": "73933895"
+      },
+      {
+        "company": "Arteche",
+        "urn": "110746"
+      },
+      {
+        "company": "Cymer",
+        "urn": "163314"
+      },
+      {
+        "company": "Dipl.-Ing. H. Horstmann GmbH",
+        "urn": "42102309"
+      },
+      {
+        "company": "ERLPhase Power Technologies Ltd.",
+        "urn": "11372804"
+      },
+      {
+        "company": "Crompton Greaves Limited, Aurangabad",
+        "urn": "33535392"
+      },
+      {
+        "company": "FANOX I Protection Relays",
+        "urn": "891661"
+      }
+    ]
+  },
+  {
+    "category": "Medical Equipments",
+    "item": [
+      {
+        "company": "Philips",
+        "urn": "1090"
+      },
+      {
+        "company": "ResMed",
+        "urn": "165716"
+      },
+      {
+        "company": "Fisher & Paykel Healthcare",
+        "urn": "24431"
+      },
+      {
+        "company": "Drägerwerk AG & Co. KGaA",
+        "urn": "9346072"
+      },
+      {
+        "company": "Medtronic",
+        "urn": "1841"
+      },
+      {
+        "company": "GE HealthCare",
+        "urn": "1016"
+      },
+      {
+        "company": "Natus Medical Incorporated",
+        "urn": "19060"
+      },
+      {
+        "company": "MEDIWARE",
+        "urn": "7088170"
+      },
+      {
+        "company": "Invacare U.S.",
+        "urn": "164444"
+      },
+      {
+        "company": "Hamilton Medical",
+        "urn": "153354"
+      },
+      {
+        "company": "Vyaire Medical",
+        "urn": "12906635"
+      },
+      {
+        "company": "Breas Medical",
+        "urn": "72722"
+      },
+      {
+        "company": "Airon Corporation",
+        "urn": "6973358"
+      },
+      {
+        "company": "MEDAPHOR GROUP PLC",
+        "urn": "21938442"
+      },
+      {
+        "company": "BD",
+        "urn": "3102"
+      },
+      {
+        "company": "Nonin Medical, Inc.",
+        "urn": "64573"
+      },
+      {
+        "company": "Parker Hannifin",
+        "urn": "4591"
+      },
+      {
+        "company": "Hologic, Inc.",
+        "urn": "11390"
+      },
+      {
+        "company": "Smiths Medical",
+        "urn": "8044"
+      },
+      {
+        "company": "AvaSure",
+        "urn": "2498380"
+      },
+      {
+        "company": "MediSystem Pharmacy",
+        "urn": "1261496"
+      },
+      {
+        "company": "ProResp Inc.",
+        "urn": "3153056"
+      },
+      {
+        "company": "Nihon Kohden America",
+        "urn": "93479"
+      },
+      {
+        "company": "SunMed Growers",
+        "urn": "59073532"
+      },
+      {
+        "company": "UK HealthCare",
+        "urn": "10831504"
+      },
+      {
+        "company": "Oxygen Therapy",
+        "urn": "7684339"
+      },
+      {
+        "company": "COMPUMEDICS FRANCE",
+        "urn": "91638226"
+      },
+      {
+        "company": "Optiflow",
+        "urn": "21558590"
+      },
+      {
+        "company": "Silhouette Group",
+        "urn": "53394"
+      },
+      {
+        "company": "ZOLL Medical Corporation",
+        "urn": "13727"
+      },
+      {
+        "company": "Bipap - Berlin",
+        "urn": "97533282"
+      },
+      {
+        "company": "Fisher & Paykel Healthcare",
+        "urn": "24431"
+      },
+      {
+        "company": "Air Liquide Healthcare",
+        "urn": "98370566"
+      },
+      {
+        "company": "Heraeus Medical",
+        "urn": "12616727"
+      },
+      {
+        "company": "Cardinal Health",
+        "urn": "2162"
+      },
+      {
+        "company": "Stryker",
+        "urn": "3282"
+      },
+      {
+        "company": "Medela",
+        "urn": "42873"
+      },
+      {
+        "company": "Hillrom",
+        "urn": "164193"
+      },
+      {
+        "company": "InOpTra Digital",
+        "urn": "34654062"
+      },
+      {
+        "company": "OMRON Healthcare EMEA",
+        "urn": "2503845"
+      }
+    ]
+  },
+  {
+    "category": "Natural Herbs & Health",
+    "item": [
+      {
+        "company": "Nature's Bounty",
+        "urn": "75061626"
+      },
+      {
+        "company": "Herbalife",
+        "urn": "5619"
+      },
+      {
+        "company": "Amway-Nutrilite",
+        "urn": "14632847"
+      },
+      {
+        "company": "Now Foods",
+        "urn": "594056"
+      },
+      {
+        "company": "GNC India",
+        "urn": "82158958"
+      },
+      {
+        "company": "Swisse Wellness (part of H&H Group)",
+        "urn": "2940740"
+      },
+      {
+        "company": "Gallery Made-in-Nature",
+        "urn": "99389889"
+      },
+      {
+        "company": "Solgar Türkiye",
+        "urn": "77390106"
+      },
+      {
+        "company": "Rainbow Light®",
+        "urn": "1183816"
+      },
+      {
+        "company": "Nordic Naturals",
+        "urn": "427378"
+      },
+      {
+        "company": "GAIA BIO",
+        "urn": "81310416"
+      },
+      {
+        "company": "MegaFood",
+        "urn": "362518"
+      },
+      {
+        "company": "New Chapter, Inc.",
+        "urn": "729017"
+      },
+      {
+        "company": "Jamieson Wellness Inc.",
+        "urn": "11360384"
+      },
+      {
+        "company": "Himalaya Herbals Hungary",
+        "urn": "15161132"
+      },
+      {
+        "company": "Botanic Choice",
+        "urn": "144196"
+      },
+      {
+        "company": "Gaia Herbs",
+        "urn": "344456"
+      },
+      {
+        "company": "NutraScience Labs",
+        "urn": "9404037"
+      },
+      {
+        "company": "Ancient Nutrition",
+        "urn": "10669917"
+      },
+      {
+        "company": "Garden of Life",
+        "urn": "55358"
+      },
+      {
+        "company": "Pure Encapsulations",
+        "urn": "1837879"
+      },
+      {
+        "company": "Life Extension Europe",
+        "urn": "5105110"
+      },
+      {
+        "company": "Metagenics",
+        "urn": "21245"
+      },
+      {
+        "company": "Oregon's Wild Harvest",
+        "urn": "649590"
+      },
+      {
+        "company": "Biovea",
+        "urn": "94919309"
+      },
+      {
+        "company": "Bluebonnet Nutrition",
+        "urn": "64993412"
+      },
+      {
+        "company": "Irwin Naturals Cannabis",
+        "urn": "79444597"
+      },
+      {
+        "company": "Botanic Nail & Spa",
+        "urn": "53841265"
+      },
+      {
+        "company": "AORN",
+        "urn": "37038"
+      },
+      {
+        "company": "Applied Nutrition plc",
+        "urn": "19007217"
+      },
+      {
+        "company": "Bio-Botanica, Inc.",
+        "urn": "1909906"
+      },
+      {
+        "company": "Natural Factors",
+        "urn": "70121"
+      },
+      {
+        "company": "TERRY NATURALLY",
+        "urn": "94325530"
+      },
+      {
+        "company": "Glanbia Nutritionals",
+        "urn": "102189"
+      },
+      {
+        "company": "Vibrant Health",
+        "urn": "3079781"
+      },
+      {
+        "company": "Arizona Natural Products",
+        "urn": "8100178"
+      },
+      {
+        "company": "Natrol Inc",
+        "urn": "3920304"
+      },
+      {
+        "company": "Twinlab Consolidation Corporation (TCC)",
+        "urn": "82988"
+      },
+      {
+        "company": "PHARMAVITE DIRECT LLC",
+        "urn": "60466176"
+      }
+    ]
+  },
+  {
+    "category": "Financial & Business Service",
+    "item": [
+      {
+        "company": "Deloitte",
+        "urn": "1038"
+      },
+      {
+        "company": "PwC India",
+        "urn": "1092713"
+      },
+      {
+        "company": "KPMG US",
+        "urn": "1079"
+      },
+      {
+        "company": "McKinsey & Company",
+        "urn": "1371"
+      },
+      {
+        "company": "Accenture",
+        "urn": "1033"
+      },
+      {
+        "company": "Capgemini Invent",
+        "urn": "1075"
+      },
+      {
+        "company": "EY-Parthenon",
+        "urn": "9519"
+      },
+      {
+        "company": "Boston Consulting Group (BCG)",
+        "urn": "1784"
+      },
+      {
+        "company": "Bain & Company",
+        "urn": "2114"
+      },
+      {
+        "company": "IBM Finance Limited",
+        "urn": "93325071"
+      },
+      {
+        "company": "GM Financial",
+        "urn": "7466"
+      },
+      {
+        "company": "Grant Thornton Bharat LLP",
+        "urn": "909723"
+      },
+      {
+        "company": "BDO Unibank",
+        "urn": "24790097"
+      },
+      {
+        "company": "RSM US LLP",
+        "urn": "3743"
+      },
+      {
+        "company": "AlixPartners",
+        "urn": "7787"
+      },
+      {
+        "company": "FTI Consulting",
+        "urn": "5509"
+      },
+      {
+        "company": "Oliver Wyman",
+        "urn": "2454"
+      },
+      {
+        "company": "Protiviti",
+        "urn": "3920"
+      },
+      {
+        "company": "Zanders",
+        "urn": "22303"
+      },
+      {
+        "company": "L.E.K. Consulting",
+        "urn": "5210"
+      },
+      {
+        "company": "Marsh McLennan",
+        "urn": "1096648"
+      },
+      {
+        "company": "West Monroe",
+        "urn": "13798"
+      },
+      {
+        "company": "Crowe UK",
+        "urn": "1295794"
+      },
+      {
+        "company": "Navigant",
+        "urn": "4904"
+      },
+      {
+        "company": "Baker Tilly US",
+        "urn": "10169"
+      },
+      {
+        "company": "Analysis Group",
+        "urn": "9091"
+      },
+      {
+        "company": "Cornerstone Research",
+        "urn": "5345"
+      },
+      {
+        "company": "The Brattle Group",
+        "urn": "15957"
+      },
+      {
+        "company": "M&A Consulting",
+        "urn": "92530"
+      },
+      {
+        "company": "WTW",
+        "urn": "3994"
+      },
+      {
+        "company": "Mercer Advisors",
+        "urn": "22790"
+      },
+      {
+        "company": "Roland Berger",
+        "urn": "3950"
+      },
+      {
+        "company": "Sia",
+        "urn": "22581"
+      },
+      {
+        "company": "Infosys Consulting",
+        "urn": "17758"
+      },
+      {
+        "company": "Tata Consultancy Services",
+        "urn": "1353"
+      },
+      {
+        "company": "ZS",
+        "urn": "5240"
+      },
+      {
+        "company": "LPL Financial",
+        "urn": "5294"
+      },
+      {
+        "company": "Stifel Financial Corp.",
+        "urn": "10194"
+      },
+      {
+        "company": "Xolv Financial Support",
+        "urn": "3477263"
+      },
+      {
+        "company": "Financial Ombudsman Service",
+        "urn": "22149"
+      }
+    ]
+  },
+  {
+    "category": "Software Development",
+    "item": [
+      {
+        "company": "IBM",
+        "urn": "1009"
+      },
+      {
+        "company": "Oracle",
+        "urn": "1028"
+      },
+      {
+        "company": "Pegasystems",
+        "urn": "165426"
+      },
+      {
+        "company": "Appian",
+        "urn": "8088"
+      },
+      {
+        "company": "Salesforce",
+        "urn": "3185"
+      },
+      {
+        "company": "Nintex RPA (formerly Kryon)",
+        "urn": "605312"
+      },
+      {
+        "company": "OpenText",
+        "urn": "2709"
+      },
+      {
+        "company": "Kofax",
+        "urn": "6427"
+      },
+      {
+        "company": "Bizagi",
+        "urn": "2652230"
+      },
+      {
+        "company": "ServiceNow",
+        "urn": "29352"
+      },
+      {
+        "company": "Software AG",
+        "urn": "2829"
+      },
+      {
+        "company": "TIBCO Software (SA) Pty Limited",
+        "urn": "10804376"
+      },
+      {
+        "company": "Newgen Software",
+        "urn": "11980"
+      },
+      {
+        "company": "Agiloft",
+        "urn": "204766"
+      },
+      {
+        "company": "AuraQuantic",
+        "urn": "69454216"
+      },
+      {
+        "company": "MicroPact",
+        "urn": "93298"
+      },
+      {
+        "company": "BP Logix",
+        "urn": "236159"
+      },
+      {
+        "company": "Creatio",
+        "urn": "20353970"
+      },
+      {
+        "company": "Casewise",
+        "urn": "16238"
+      },
+      {
+        "company": "PNMSOFT UK LIMITED",
+        "urn": "20854941"
+      },
+      {
+        "company": "DST Systems",
+        "urn": "6516"
+      },
+      {
+        "company": "Bonitasoft",
+        "urn": "546771"
+      },
+      {
+        "company": "FNZ (formerly Appway)",
+        "urn": "70243"
+      },
+      {
+        "company": "Infosys",
+        "urn": "1283"
+      },
+      {
+        "company": "Fujitsu",
+        "urn": "1374"
+      },
+      {
+        "company": "Capgemini",
+        "urn": "157240"
+      },
+      {
+        "company": "Red Hat",
+        "urn": "3545"
+      },
+      {
+        "company": "SAP",
+        "urn": "1115"
+      },
+      {
+        "company": "Cognizant",
+        "urn": "1680"
+      },
+      {
+        "company": "Hewlett Packard Enterprise",
+        "urn": "1025"
+      },
+      {
+        "company": "Camunda",
+        "urn": "3221992"
+      },
+      {
+        "company": "Intellect Design Arena Ltd",
+        "urn": "5387560"
+      },
+      {
+        "company": "Quickbase",
+        "urn": "2845325"
+      },
+      {
+        "company": "Ayehu (now part of Resolve)",
+        "urn": "690607"
+      },
+      {
+        "company": "Decisions",
+        "urn": "2373238"
+      },
+      {
+        "company": "SAP Signavio",
+        "urn": "317099"
+      },
+      {
+        "company": "Ultimus",
+        "urn": "12237"
+      },
+      {
+        "company": "Everteam Software",
+        "urn": "89815"
+      }
+    ]
+  },
+  {
+    "category": "Electronics & Semiconductor",
+    "item": [
+      {
+        "company": "Qualcomm",
+        "urn": "2017"
+      },
+      {
+        "company": "Broadcom",
+        "urn": "3072"
+      },
+      {
+        "company": "Skyworks Solutions, Inc.",
+        "urn": "165998"
+      },
+      {
+        "company": "Qorvo, Inc.",
+        "urn": "4851811"
+      },
+      {
+        "company": "NXP Semiconductors",
+        "urn": "1088"
+      },
+      {
+        "company": "Murata",
+        "urn": "16612"
+      },
+      {
+        "company": "Analog Devices",
+        "urn": "3450"
+      },
+      {
+        "company": "STMicroelectronics",
+        "urn": "1618"
+      },
+      {
+        "company": "Texas Instruments",
+        "urn": "1397"
+      },
+      {
+        "company": "Infineon Technologies",
+        "urn": "2148"
+      },
+      {
+        "company": "Samsung Electronics",
+        "urn": "1753"
+      },
+      {
+        "company": "Renesas Electronics",
+        "urn": "934588"
+      },
+      {
+        "company": "MACOM",
+        "urn": "370788"
+      },
+      {
+        "company": "Microchip Technology Inc.",
+        "urn": "6481"
+      },
+      {
+        "company": "Marvell Technology",
+        "urn": "3772"
+      },
+      {
+        "company": "onsemi",
+        "urn": "165308"
+      },
+      {
+        "company": "Intel Corporation",
+        "urn": "1053"
+      },
+      {
+        "company": "Huawei",
+        "urn": "3014"
+      },
+      {
+        "company": "MediaTek",
+        "urn": "17763"
+      },
+      {
+        "company": "Peregrine Semiconductor",
+        "urn": "20552"
+      },
+      {
+        "company": "Lumentum Holdings Inc",
+        "urn": "52318287"
+      },
+      {
+        "company": "Vishay Intertechnology, Inc.",
+        "urn": "7449"
+      },
+      {
+        "company": "Maxim Integrated",
+        "urn": "4801"
+      },
+      {
+        "company": "Cypress Semiconductor Corporation",
+        "urn": "3579"
+      },
+      {
+        "company": "RFMD (now Qorvo, Inc.)",
+        "urn": "165733"
+      },
+      {
+        "company": "Avago Technologies",
+        "urn": "162592"
+      },
+      {
+        "company": "Anokiwave is now Qorvo",
+        "urn": "3364105"
+      },
+      {
+        "company": "IDT Corporation",
+        "urn": "2964"
+      },
+      {
+        "company": "Mitsubishi Electric",
+        "urn": "14495786"
+      },
+      {
+        "company": "EPCOS",
+        "urn": "163655"
+      },
+      {
+        "company": "Cree",
+        "urn": "13127"
+      },
+      {
+        "company": "SkyWater Technology",
+        "urn": "11061114"
+      },
+      {
+        "company": "GlobalFoundries",
+        "urn": "241309"
+      },
+      {
+        "company": "Tower Semiconductor",
+        "urn": "734498"
+      },
+      {
+        "company": "Silicon Labs",
+        "urn": "165971"
+      },
+      {
+        "company": "Nexperia",
+        "urn": "15183110"
+      },
+      {
+        "company": "Semtech",
+        "urn": "10926"
+      },
+      {
+        "company": "TriQuint Semiconductor (now Qorvo, Inc.)",
+        "urn": "166502"
+      },
+      {
+        "company": "Teledyne Judson Technologies",
+        "urn": "153647"
+      }
+    ]
+  },
+  {
+    "category": "Machine Construction",
+    "item": [
+      {
+        "company": "Caterpillar Inc.",
+        "urn": "2622"
+      },
+      {
+        "company": "Komatsu North America",
+        "urn": "164623"
+      },
+      {
+        "company": "Volvo Construction Equipment",
+        "urn": "2096"
+      },
+      {
+        "company": "Liebherr Group",
+        "urn": "11057"
+      },
+      {
+        "company": "Hitachi Construction Machinery",
+        "urn": "3763699"
+      },
+      {
+        "company": "JCB",
+        "urn": "9398"
+      },
+      {
+        "company": "Doosan Infracore International",
+        "urn": "2398622"
+      },
+      {
+        "company": "HD Hyundai Construction Equipment India Pvt Ltd",
+        "urn": "14455168"
+      },
+      {
+        "company": "Kubota Corporation",
+        "urn": "49234"
+      },
+      {
+        "company": "XCMG Group",
+        "urn": "2262388"
+      },
+      {
+        "company": "CASE Construction Equipment",
+        "urn": "9189899"
+      },
+      {
+        "company": "Terex Corporation",
+        "urn": "7255"
+      },
+      {
+        "company": "John Deere",
+        "urn": "3789"
+      },
+      {
+        "company": "Yanmar",
+        "urn": "9674897"
+      },
+      {
+        "company": "TAKEUCHI FRANCE",
+        "urn": "93306497"
+      },
+      {
+        "company": "PT Sumitomo Construction Machinery Indonesia",
+        "urn": "8945624"
+      },
+      {
+        "company": "Wacker Neuson",
+        "urn": "14806403"
+      },
+      {
+        "company": "Kobelco Construction Machinery USA, Inc.",
+        "urn": "3506827"
+      },
+      {
+        "company": "Bobcat Company",
+        "urn": "162752"
+      },
+      {
+        "company": "CNH Industrial America LLC",
+        "urn": "59269084"
+      },
+      {
+        "company": "MANITOU Group",
+        "urn": "118246"
+      },
+      {
+        "company": "Atlas Copco",
+        "urn": "4804"
+      },
+      {
+        "company": "BROKK",
+        "urn": "1088852"
+      },
+      {
+        "company": "Okada Aiyon Corporation",
+        "urn": "27064736"
+      },
+      {
+        "company": "Genesis Attachments",
+        "urn": "3727725"
+      },
+      {
+        "company": "Paladin | LaBounty | Pengo | STANLEY",
+        "urn": "4005765"
+      },
+      {
+        "company": "Trevi Benne Polska",
+        "urn": "91862053"
+      },
+      {
+        "company": "VTN Europe S.p.A.",
+        "urn": "5095934"
+      },
+      {
+        "company": "Mantovanibenne - MBI Group",
+        "urn": "3185205"
+      },
+      {
+        "company": "Indeco",
+        "urn": "9549440"
+      },
+      {
+        "company": "Strickland MFG",
+        "urn": "5078790"
+      },
+      {
+        "company": "CR Powered by Epiroc",
+        "urn": "53474106"
+      },
+      {
+        "company": "Rotar International B.V.",
+        "urn": "25138584"
+      },
+      {
+        "company": "Morgan Stanley Wealth Management",
+        "urn": "1351"
+      },
+      {
+        "company": "Blue Diamond Attachments",
+        "urn": "10514131"
+      },
+      {
+        "company": "NPK Construction Equipment",
+        "urn": "634039"
+      },
+      {
+        "company": "Kinshofer GmbH",
+        "urn": "8982680"
+      },
+      {
+        "company": "Tabella",
+        "urn": "67101450"
+      },
+      {
+        "company": "FH Maschinen und Braumanufaktur Werk II GmbH",
+        "urn": "73127640"
+      },
+      {
+        "company": "Craig Manufacturing",
+        "urn": "11238944"
+      }
+    ]
+  },
+  {
+    "category": "Fashion & Apperial",
+    "item": [
+      {
+        "company": "The North Face",
+        "urn": "4667"
+      },
+      {
+        "company": "Patagonia",
+        "urn": "665858"
+      },
+      {
+        "company": "Columbia Sportswear Company",
+        "urn": "7003"
+      },
+      {
+        "company": "Arc'teryx Equipment",
+        "urn": "137624"
+      },
+      {
+        "company": "Marmot",
+        "urn": "131771"
+      },
+      {
+        "company": "Moncler USA Inc.",
+        "urn": "59880470"
+      },
+      {
+        "company": "Canada Goose",
+        "urn": "1056303"
+      },
+      {
+        "company": "Eddie Bauer",
+        "urn": "157346"
+      },
+      {
+        "company": "Helly Hansen",
+        "urn": "14649"
+      },
+      {
+        "company": "Nike",
+        "urn": "2029"
+      },
+      {
+        "company": "adidas",
+        "urn": "3748"
+      },
+      {
+        "company": "PUMA Group",
+        "urn": "165597"
+      },
+      {
+        "company": "Under Armour",
+        "urn": "14140"
+      },
+      {
+        "company": "Reebok Europe",
+        "urn": "90928224"
+      },
+      {
+        "company": "New Balance",
+        "urn": "8274"
+      },
+      {
+        "company": "ASICS",
+        "urn": "51037"
+      },
+      {
+        "company": "lululemon",
+        "urn": "22523"
+      },
+      {
+        "company": "FILA",
+        "urn": "8609"
+      },
+      {
+        "company": "Salomon",
+        "urn": "165824"
+      },
+      {
+        "company": "Timberland",
+        "urn": "6017"
+      },
+      {
+        "company": "Burberry",
+        "urn": "8524"
+      },
+      {
+        "company": "Gucci",
+        "urn": "6585"
+      },
+      {
+        "company": "Prada Group",
+        "urn": "8666"
+      },
+      {
+        "company": "Louis Vuitton",
+        "urn": "5790"
+      },
+      {
+        "company": "Versace",
+        "urn": "26331"
+      },
+      {
+        "company": "BALENCIAGA",
+        "urn": "72944"
+      },
+      {
+        "company": "DOLCE&GABBANA",
+        "urn": "12274"
+      },
+      {
+        "company": "Tommy Hilfiger",
+        "urn": "5826"
+      },
+      {
+        "company": "Calvin Klein",
+        "urn": "162866"
+      },
+      {
+        "company": "Ralph Lauren",
+        "urn": "4688"
+      },
+      {
+        "company": "HUGO BOSS",
+        "urn": "164238"
+      },
+      {
+        "company": "Zara",
+        "urn": "99237810"
+      },
+      {
+        "company": "H&M",
+        "urn": "5328"
+      },
+      {
+        "company": "UNIQLO",
+        "urn": "66256"
+      },
+      {
+        "company": "Levi Strauss & Co.",
+        "urn": "3137"
+      },
+      {
+        "company": "Gap",
+        "urn": "807593"
+      },
+      {
+        "company": "Diesel",
+        "urn": "163452"
+      },
+      {
+        "company": "Giorgio Armani",
+        "urn": "10474"
+      },
+      {
+        "company": "GUESS?, Inc.",
+        "urn": "164086"
+      }
+    ]
+  },
+  {
+    "category": "Life Sciences & Biotechnology",
+    "item": [
+      {
+        "company": "Thermo Fisher Scientific",
+        "urn": "3081"
+      },
+      {
+        "company": "Abbott",
+        "urn": "1612"
+      },
+      {
+        "company": "Roche Diagnostics India, Neighbouring Markets",
+        "urn": "18318997"
+      },
+      {
+        "company": "Siemens Healthineers",
+        "urn": "157241"
+      },
+      {
+        "company": "Bio-Rad Laboratories",
+        "urn": "1613226"
+      },
+      {
+        "company": "PerkinElmer",
+        "urn": "4562"
+      },
+      {
+        "company": "BD",
+        "urn": "3102"
+      },
+      {
+        "company": "Merck KGaA, Darmstadt, Germany",
+        "urn": "14328"
+      },
+      {
+        "company": "Agilent Technologies",
+        "urn": "1526"
+      },
+      {
+        "company": "QIAGEN",
+        "urn": "8276"
+      },
+      {
+        "company": "Sysmex Corporation",
+        "urn": "405126"
+      },
+      {
+        "company": "bioMérieux",
+        "urn": "162715"
+      },
+      {
+        "company": "Ortho Clinical Diagnostics",
+        "urn": "1196"
+      },
+      {
+        "company": "Hologic, Inc.",
+        "urn": "11390"
+      },
+      {
+        "company": "Illumina",
+        "urn": "7513"
+      },
+      {
+        "company": "Randox Laboratories Limited (Mumbai)",
+        "urn": "34171635"
+      },
+      {
+        "company": "Diasorin",
+        "urn": "48888"
+      },
+      {
+        "company": "GenScript",
+        "urn": "298797"
+      },
+      {
+        "company": "Promega Corporation",
+        "urn": "10754"
+      },
+      {
+        "company": "Luminex",
+        "urn": "14089"
+      },
+      {
+        "company": "Zymo Research Corp",
+        "urn": "503544"
+      },
+      {
+        "company": "Enzo Life Sciences, Inc.",
+        "urn": "920392"
+      },
+      {
+        "company": "Takara Bio USA, Inc.",
+        "urn": "17509"
+      },
+      {
+        "company": "Lonza",
+        "urn": "7462"
+      },
+      {
+        "company": "GE HealthCare Voluson Ultrasound",
+        "urn": "77314887"
+      },
+      {
+        "company": "SEKISUI Diagnostics",
+        "urn": "1844624"
+      },
+      {
+        "company": "Fujirebio",
+        "urn": "17068"
+      },
+      {
+        "company": "Nova Biomedical",
+        "urn": "2030108"
+      },
+      {
+        "company": "Creative Enzymes",
+        "urn": "6399298"
+      },
+      {
+        "company": "Beckman Coulter Life Sciences",
+        "urn": "26510546"
+      },
+      {
+        "company": "Elabscience Bionovation Inc.",
+        "urn": "10691566"
+      },
+      {
+        "company": "MyBioSource",
+        "urn": "4822259"
+      },
+      {
+        "company": "R&D Systems",
+        "urn": "297465"
+      },
+      {
+        "company": "RayBiotech",
+        "urn": "1653903"
+      },
+      {
+        "company": "BioVision, an Abcam company",
+        "urn": "2241685"
+      },
+      {
+        "company": "Cayman Chemical",
+        "urn": "33130"
+      },
+      {
+        "company": "Santa Cruz Biotechnology (SCBT)",
+        "urn": "165848"
+      },
+      {
+        "company": "Abcam",
+        "urn": "41780"
+      },
+      {
+        "company": "Scripps Laboratories, Inc.",
+        "urn": "3023924"
+      },
+      {
+        "company": "Biotium",
+        "urn": "8920965"
+      }
+    ]
+  },
+  {
+    "category": "Mining & Construction",
+    "item": [
+      {
+        "company": "Vanguard Modular is now BOXX Modular, Inc.",
+        "urn": "86869"
+      },
+      {
+        "company": "Modular Genius, Inc.",
+        "urn": "555883"
+      },
+      {
+        "company": "Mobile Modular Management Corporation",
+        "urn": "132283"
+      },
+      {
+        "company": "WILLIAMS SCOTSMAN INC",
+        "urn": "9642983"
+      },
+      {
+        "company": "Panel Built, Inc.",
+        "urn": "303995"
+      },
+      {
+        "company": "Ramtech Building Systems, Inc.",
+        "urn": "1294053"
+      },
+      {
+        "company": "Satellite Shelters Inc.",
+        "urn": "804060"
+      },
+      {
+        "company": "M.Space Realty",
+        "urn": "13445791"
+      },
+      {
+        "company": "Modern Building Systems, Inc.",
+        "urn": "2497573"
+      },
+      {
+        "company": "Pac-Van, Inc.",
+        "urn": "154768"
+      },
+      {
+        "company": "NRB Modular Solutions",
+        "urn": "1222175"
+      },
+      {
+        "company": "Triumph Modular",
+        "urn": "502665"
+      },
+      {
+        "company": "RELOCATABLE BUILDINGS LIMITED",
+        "urn": "16743714"
+      },
+      {
+        "company": "HALFEN",
+        "urn": "509688"
+      },
+      {
+        "company": "Ancon",
+        "urn": "1397592"
+      },
+      {
+        "company": "Keystone Lintels",
+        "urn": "5014508"
+      },
+      {
+        "company": "Simpson Strong-Tie",
+        "urn": "ACoAAByi9HwBekCzHr5Mqk4hptQx_j99vWFszck"
+      },
+      {
+        "company": "IBP Group of Companies",
+        "urn": "67077379"
+      },
+      {
+        "company": "Brick-Tie Preservation",
+        "urn": "681797"
+      },
+      {
+        "company": "Catnic",
+        "urn": "18709833"
+      },
+      {
+        "company": "METSEC LATTICE BEAMS LIMITED",
+        "urn": "19576727"
+      },
+      {
+        "company": "Fastener Solutions",
+        "urn": "104112918"
+      },
+      {
+        "company": "Hilti Group",
+        "urn": "4205"
+      },
+      {
+        "company": "fischer Fixings Middle East",
+        "urn": "10077072"
+      },
+      {
+        "company": "Kingspan Isoeste",
+        "urn": "25176183"
+      },
+      {
+        "company": "ArcelorMittal Tubular Products Al-Jubail",
+        "urn": "13689080"
+      },
+      {
+        "company": "ClarkDietrich",
+        "urn": "2065505"
+      },
+      {
+        "company": "Leviat",
+        "urn": "31269576"
+      },
+      {
+        "company": "Bekaert",
+        "urn": "7186"
+      },
+      {
+        "company": "Owens Corning Canada",
+        "urn": "75481812"
+      },
+      {
+        "company": "RedBuilt, LLC",
+        "urn": "518772"
+      },
+      {
+        "company": "Tata Steel",
+        "urn": "166262"
+      },
+      {
+        "company": "SSAB",
+        "urn": "166109"
+      },
+      {
+        "company": "ModSpace",
+        "urn": "40881"
+      },
+      {
+        "company": "Contemporary Structures",
+        "urn": "11641852"
+      },
+      {
+        "company": "Affordable Structures",
+        "urn": "3235923"
+      },
+      {
+        "company": "Falcon Structures",
+        "urn": "1117870"
+      },
+      {
+        "company": "Stack Modular",
+        "urn": "2986721"
+      },
+      {
+        "company": "NRB BUSINESS INC",
+        "urn": "ACoAAAbCXfYBeyCr8_4bbmcFbYK8tvIey-dCXAQ"
+      },
+      {
+        "company": "Whitley Manufacturing",
+        "urn": "2281168"
+      }
+    ]
+  },
+  {
+    "category": "Agriculture & Food Industry",
+    "item": [
+      {
+        "company": "Sunkist Growers",
+        "urn": "30751"
+      },
+      {
+        "company": "Limoneira Company",
+        "urn": "438302"
+      },
+      {
+        "company": "Grupo Verfrut Chile & Peru",
+        "urn": "16259319"
+      },
+      {
+        "company": "Citromax Group",
+        "urn": "10524205"
+      },
+      {
+        "company": "San Miguel Global",
+        "urn": "365708"
+      },
+      {
+        "company": "Borges Agricultural & Industrial Nuts",
+        "urn": "93010052"
+      },
+      {
+        "company": "CapVest",
+        "urn": "137295"
+      },
+      {
+        "company": "FRUTAS ESTHER SA",
+        "urn": "39576825"
+      },
+      {
+        "company": "Gruppo Orsero",
+        "urn": "8726635"
+      },
+      {
+        "company": "Turners and Growers",
+        "urn": "7188405"
+      },
+      {
+        "company": "Vanguard Group International",
+        "urn": "15078089"
+      },
+      {
+        "company": "Altar Produce",
+        "urn": "4754450"
+      },
+      {
+        "company": "CAPUZZO S.R.L.",
+        "urn": "24636369"
+      },
+      {
+        "company": "Fresco Produce",
+        "urn": "4665334"
+      },
+      {
+        "company": "Tropicana Brands Group",
+        "urn": "77686795"
+      },
+      {
+        "company": "Bayer CropScience Vegetable Seeds",
+        "urn": "52965164"
+      },
+      {
+        "company": "Zummo Meat Co",
+        "urn": "3922893"
+      },
+      {
+        "company": "Naturipe Farms",
+        "urn": "1950853"
+      },
+      {
+        "company": "Del Monte Fresh Produce Brasil Ltda",
+        "urn": "33211877"
+      },
+      {
+        "company": "Westfalia Fruit",
+        "urn": "4466878"
+      },
+      {
+        "company": "Costa Food Group",
+        "urn": "18581663"
+      },
+      {
+        "company": "Mission Produce®",
+        "urn": "285983"
+      },
+      {
+        "company": "Sunwest Fruit Co Inc",
+        "urn": "4296026"
+      },
+      {
+        "company": "Duda Farm Fresh Foods",
+        "urn": "5019403"
+      },
+      {
+        "company": "Wonderful Citrus",
+        "urn": "64980"
+      },
+      {
+        "company": "AgroFresh",
+        "urn": "97850"
+      },
+      {
+        "company": "Lemonconcentrate SL",
+        "urn": "2485664"
+      },
+      {
+        "company": "Citrus Growers Association of Southern Africa",
+        "urn": "90927077"
+      },
+      {
+        "company": "La Costeña",
+        "urn": "1292133"
+      },
+      {
+        "company": "Eurosemillas S.A.",
+        "urn": "8237848"
+      },
+      {
+        "company": "The Giumarra Companies",
+        "urn": "1673659"
+      },
+      {
+        "company": "Riveridge Produce Marketing, Inc.",
+        "urn": "6599994"
+      },
+      {
+        "company": "Nature's Touch Garden Center",
+        "urn": "105754191"
+      },
+      {
+        "company": "Agricola Famosa SA",
+        "urn": "3038805"
+      },
+      {
+        "company": "Citrosuco",
+        "urn": "80664"
+      },
+      {
+        "company": "Simfresh",
+        "urn": "17986362"
+      },
+      {
+        "company": "BelOrta",
+        "urn": "5203500"
+      },
+      {
+        "company": "frutera san fernando sociedad anonima",
+        "urn": "6285312"
+      },
+      {
+        "company": "Organic Valley",
+        "urn": "1102416"
+      }
+    ]
+  },
+  {
+    "category": "Computers & Electronics",
+    "item": [
+      {
+        "company": "Anker Innovations LTD",
+        "urn": "2602140"
+      },
+      {
+        "company": "Belkin",
+        "urn": "162683"
+      },
+      {
+        "company": "Samsung Electronics",
+        "urn": "1753"
+      },
+      {
+        "company": "Apple",
+        "urn": "162479"
+      },
+      {
+        "company": "Xiaomi Technology",
+        "urn": "2300557"
+      },
+      {
+        "company": "Sony",
+        "urn": "1252"
+      },
+      {
+        "company": "Dell Technologies",
+        "urn": "15088102"
+      },
+      {
+        "company": "HP",
+        "urn": "5390798"
+      },
+      {
+        "company": "ASUS",
+        "urn": "162564"
+      },
+      {
+        "company": "Lenovo",
+        "urn": "3653"
+      },
+      {
+        "company": "RAVPower",
+        "urn": "90400404"
+      },
+      {
+        "company": "AUKEY",
+        "urn": "3810265"
+      },
+      {
+        "company": "Baseus",
+        "urn": "7796164"
+      },
+      {
+        "company": "UGREEN GROUP LIMITED",
+        "urn": "6790527"
+      },
+      {
+        "company": "Eaton",
+        "urn": "2599"
+      },
+      {
+        "company": "Schneider Electric",
+        "urn": "67348069"
+      },
+      {
+        "company": "Tripp Lite",
+        "urn": "16337"
+      },
+      {
+        "company": "Cyber-power",
+        "urn": "12634992"
+      },
+      {
+        "company": "mophie",
+        "urn": "2024697"
+      },
+      {
+        "company": "HyperVerge",
+        "urn": "4037280"
+      },
+      {
+        "company": "Hyperface",
+        "urn": "74081182"
+      },
+      {
+        "company": "Zendure",
+        "urn": "3280993"
+      },
+      {
+        "company": "RockSpace Italia",
+        "urn": "74949723"
+      },
+      {
+        "company": "Green Cabbage Inc.",
+        "urn": "16260385"
+      },
+      {
+        "company": "TP-Link",
+        "urn": "931891"
+      },
+      {
+        "company": "Targus",
+        "urn": "8780"
+      },
+      {
+        "company": "Philips Lighting",
+        "urn": "2530487"
+      },
+      {
+        "company": "Legrand",
+        "urn": "8483"
+      },
+      {
+        "company": "Panasonic North America",
+        "urn": "2610"
+      },
+      {
+        "company": "FSP Group USA",
+        "urn": "293526"
+      },
+      {
+        "company": "MEAN WELL",
+        "urn": "14004472"
+      },
+      {
+        "company": "LITEON Technology",
+        "urn": "15701"
+      },
+      {
+        "company": "Chicony Power",
+        "urn": "1496961"
+      },
+      {
+        "company": "Delta Electronics",
+        "urn": "316339"
+      },
+      {
+        "company": "Flex",
+        "urn": "2279"
+      },
+      {
+        "company": "Salcomp Plc",
+        "urn": "35230"
+      },
+      {
+        "company": "Huntkey",
+        "urn": "1452281"
+      },
+      {
+        "company": "ORICO Technologies LTD",
+        "urn": "38171682"
+      },
+      {
+        "company": "ZMI",
+        "urn": "11018559"
+      }
+    ]
+  },
+  {
+    "category": "Construction & Building Materials",
+    "item": [
+      {
+        "company": "Kingspan Group",
+        "urn": "2979742"
+      },
+      {
+        "company": "Metecno",
+        "urn": "2162975"
+      },
+      {
+        "company": "Isopan",
+        "urn": "3205778"
+      },
+      {
+        "company": "Assan Panel",
+        "urn": "1577255"
+      },
+      {
+        "company": "Nucor Building Systems",
+        "urn": "60338"
+      },
+      {
+        "company": "Hoesch®",
+        "urn": "30715684"
+      },
+      {
+        "company": "Ruukki",
+        "urn": "165663"
+      },
+      {
+        "company": "Italpannelli",
+        "urn": "11527333"
+      },
+      {
+        "company": "ALUBEL SPA",
+        "urn": "8574397"
+      },
+      {
+        "company": "BCOMS - Building Component Solutions LLC",
+        "urn": "70392662"
+      },
+      {
+        "company": "Panelco",
+        "urn": "12054091"
+      },
+      {
+        "company": "Công ty Cổ phần Tập đoàn TONMAT",
+        "urn": "104159245"
+      },
+      {
+        "company": "Jingxue Group",
+        "urn": "80306613"
+      },
+      {
+        "company": "Zamil Steel Holding Company Limited",
+        "urn": "38377"
+      },
+      {
+        "company": "AlShahin Metal Industries",
+        "urn": "1054013"
+      },
+      {
+        "company": "Pioneer Panels",
+        "urn": "31265575"
+      },
+      {
+        "company": "Lattonedil",
+        "urn": "8048305"
+      },
+      {
+        "company": "Manni Group",
+        "urn": "1036504"
+      },
+      {
+        "company": "BALEX METAL",
+        "urn": "2988923"
+      },
+      {
+        "company": "PAROC",
+        "urn": "33731"
+      },
+      {
+        "company": "ISOMEC S.r.l.",
+        "urn": "24708093"
+      },
+      {
+        "company": "Supertech Industries LLC",
+        "urn": "70239074"
+      },
+      {
+        "company": "Multicolor Steels (India) Pvt Ltd",
+        "urn": "3139877"
+      },
+      {
+        "company": "Saint-Gobain",
+        "urn": "2981"
+      },
+      {
+        "company": "Huntsman Building Solutions Middle East",
+        "urn": "80948348"
+      },
+      {
+        "company": "Owens Corning",
+        "urn": "5313"
+      },
+      {
+        "company": "Kingspan Insulation",
+        "urn": "3501584"
+      },
+      {
+        "company": "Celotex Corp",
+        "urn": "6504006"
+      },
+      {
+        "company": "Johns Manville Commercial Roofing Systems",
+        "urn": "40799981"
+      },
+      {
+        "company": "ROCKWOOL Group",
+        "urn": "7181"
+      },
+      {
+        "company": "Bechtel Corporation",
+        "urn": "3304"
+      },
+      {
+        "company": "Fluor Corporation",
+        "urn": "3681"
+      },
+      {
+        "company": "Turner Construction Company",
+        "urn": "5772"
+      },
+      {
+        "company": "Skanska",
+        "urn": "4335"
+      },
+      {
+        "company": "VINCI",
+        "urn": "9440"
+      },
+      {
+        "company": "Bouygues Construction",
+        "urn": "5786"
+      },
+      {
+        "company": "Laing O'Rourke",
+        "urn": "164668"
+      },
+      {
+        "company": "AECOM",
+        "urn": "15656"
+      },
+      {
+        "company": "Kiewit",
+        "urn": "9585"
+      },
+      {
+        "company": "HENSEL PHELPS",
+        "urn": "21743"
+      }
+    ]
+  },
+  {
+    "category": "Security and Defense",
+    "item": [
+      { "company": "Axis Communications", "urn": "6390" },
+      { "company": "Honeywell", "urn": "1344" },
+      { "company": "Bosch Security and Safety Systems", "urn": "2198" },
+      { "company": "STANLEY Security", "urn": "166128" },
+      { "company": "Schneider Electric", "urn": "2329" },
+      { "company": "Johnson Controls", "urn": "2247" },
+      { "company": "FLIR Systems", "urn": "163847" },
+      { "company": "Senstar", "urn": "705286" },
+      { "company": "Hikvision", "urn": "678567" },
+      { "company": "Dahua Technology Co. LTD", "urn": "2845844" },
+      { "company": "Siemens", "urn": "1043" },
+      { "company": "Motorola Solutions", "urn": "1771432" },
+      { "company": "Raytheon Technologies", "urn": "97902195" },
+      { "company": "General Dynamics", "urn": "1904" },
+      { "company": "Thales", "urn": "1951" },
+      { "company": "Trimble Inc.", "urn": "5160" },
+      { "company": "Garmin", "urn": "9240" },
+      { "company": "AgEagle Aerial Systems Inc.", "urn": "9488950" },
+      { "company": "DroneShield", "urn": "7575557" },
+      { "company": "Pure Tech Water Systems", "urn": "4126511" },
+      { "company": "Perimeter Security Systems", "urn": "5050542" },
+      { "company": "Smart Fence", "urn": "34063533" },
+      { "company": "Boeing", "urn": "1384" },
+      { "company": "Lockheed Martin", "urn": "1319" },
+      { "company": "Northrop Grumman", "urn": "1412" },
+      { "company": "BAE Systems", "urn": "1882" },
+      { "company": "Elbit Systems Israel", "urn": "163594" },
+      { "company": "IAI - Israel Aerospace Industries", "urn": "10057737" },
+      { "company": "Dedrone by Axon", "urn": "10048388" },
+      { "company": "Magos Systems", "urn": "1746999" },
+      { "company": "QinetiQ", "urn": "387409" },
+      { "company": "Sensuron", "urn": "6588274" },
+      { "company": "NovAtel", "urn": "347693" },
+      { "company": "Hexagon AB", "urn": "134742" },
+      { "company": "Securitas Group", "urn": "3604763" },
+      { "company": "ADT", "urn": "162293" },
+      { "company": "Alarm.com", "urn": "43680" },
+      { "company": "Vivint", "urn": "1766026" },
+      { "company": "Cognitec Systems", "urn": "136761" },
+      { "company": "Avigilon", "urn": "797614" }
+    ]
+  }
+  
+]
