@@ -120,7 +120,7 @@ function App() {
           <NavLink to="/pulse" className="startBlog">Pulse</NavLink>
           <NavLink to="/blog" className="startBlog">Blogs</NavLink>
           <NavLink to="/tags" className="startBlog">Tagging</NavLink>
-          <NavLink to="/onpage" onClick={() => showAlert('Loading...', 'info')} className="startBlog">Onpage</NavLink>
+          <NavLink to="/onpage" onClick={() => showAlert(' Still In Progress', 'info')} className="startBlog">Onpage</NavLink>
           <Zipping jsonData={jsonData} />
         </div>
       </nav>
