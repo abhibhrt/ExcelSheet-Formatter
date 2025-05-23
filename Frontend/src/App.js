@@ -120,7 +120,7 @@ function App() {
           <NavLink to="/pulse" className="startBlog">Pulse</NavLink>
           <NavLink to="/blog" className="startBlog">Blogs</NavLink>
           <NavLink to="/tags" className="startBlog">Tagging</NavLink>
-          <NavLink to="/onpage" onClick={() => showAlert('Working On It, Will Update Soon', 'warning')} className="startBlog">Onpage</NavLink>
+          <NavLink to="/onpage" onClick={() => showAlert('Loading...', 'info')} className="startBlog">Onpage</NavLink>
           <Zipping jsonData={jsonData} />
         </div>
       </nav>
@@ -130,15 +130,7 @@ function App() {
         <Route path="/blog" element={<Blog jsonData={jsonData} />} />
         <Route path="/pulse" element={<Pulse jsonData={jsonData} />} />
         <Route path="/tags" element={<Tags />} />
-        <Route path="/onpage" element={<Onpage sample={{
-          titleName: "Cyclophosphamide Injection",
-          varPrev24: "3.16",
-          varNext32: "4.5",
-          varUnit: "Billion",
-          varCAGR: "5.18% CAGR",
-          reportId: "1043027",
-          imageUrl: "https://www.marketresearchintellect.com/images/05-24/cyclophosphamide-injection-market.webp"
-        }} />} />
+        <Route path="/onpage" element={<Onpage  />} />
       </Routes>
     </Router>
   );
