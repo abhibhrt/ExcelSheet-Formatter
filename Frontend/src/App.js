@@ -101,6 +101,9 @@ function App() {
           Column7: row[6] || "",
           Column8: row[7] || "",
           Column9: row[8] || "",
+          Column10: row[9] || "",
+          Column11: row[10] || "",
+          Column12: row[11] || ""
         }));
         setJsonData(formattedData);
       };
@@ -126,7 +129,7 @@ function App() {
           <NavLink to="/" className="startBlog">Upload</NavLink>
           <NavLink to="/pulse" className="startBlog">Pulse</NavLink>
           <NavLink to="/blog" className="startBlog">Blogs</NavLink>
-          <NavLink to="/onpage" onClick={() => showAlert(' Still In Progress', 'info')} className="startBlog">Onpage</NavLink>
+          <NavLink to="/onpage" className="startBlog">Onpage</NavLink>
           <NavLink to="/tags" className="startBlog">Tagging</NavLink>
           <Zipping jsonData={jsonData} />
         </div>
