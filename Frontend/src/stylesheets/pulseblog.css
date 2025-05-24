@@ -1,0 +1,193 @@
+/* Shared Component Styles */
+.data-viewer {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: var(--text-primary);
+  }
+  
+  .data-navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .data-navigation__button {
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: var(--transition);
+    font-weight: 500;
+  }
+  
+  .data-navigation__button:hover {
+    background-color: var(--accent-hover);
+    transform: translateY(-2px);
+  }
+  
+  .data-navigation__button:disabled {
+    background-color: var(--text-secondary);
+    cursor: not-allowed;
+    transform: none;
+  }
+  
+  .data-navigation__input {
+    width: 60px;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: var(--border-radius);
+    border: 1px solid var(--accent-color);
+    background-color: var(--secondary-bg);
+    color: var(--text-primary);
+  }
+  
+  .data-actions {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .data-action__button {
+    background-color: var(--secondary-bg);
+    color: var(--text-primary);
+    border: 1px solid var(--accent-color);
+    padding: 0.5rem 1rem;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: var(--transition);
+    font-size: 0.9rem;
+    min-width: 120px;
+  }
+  
+  .data-action__button:hover {
+    background-color: var(--accent-color);
+    color: white;
+  }
+  
+  .data-content {
+    background-color: var(--secondary-bg);
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    margin-bottom: 1rem;
+    box-shadow: var(--box-shadow);
+  }
+  
+  .data-title {
+    color: var(--accent-color);
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-size: 1.8rem;
+  }
+  
+  .data-html-content {
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+  }
+  
+  .data-html-content p {
+    margin-bottom: 1rem;
+  }
+  
+  .data-tags {
+    background-color: rgba(156, 39, 176, 0.1);
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    border-left: 3px solid var(--accent-color);
+  }
+  
+  .data-upload-warning {
+    text-align: center;
+    padding: 2rem;
+    color: var(--warning);
+    font-size: 1.2rem;
+  }
+
+  .data-upload-warning i {
+    font-size: 4rem;
+    margin:2rem;
+    color: yellow;
+    animation: blink 1.5s infinite;
+  }
+  
+  @keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+
+  /* Blog-specific Styles */
+  .data-iframe-container {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 2rem;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: var(--box-shadow);
+  }
+  
+  .data-iframe-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  
+  .data-loading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(30, 30, 30, 0.7);
+    z-index: 10;
+  }
+  
+  .loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid var(--accent-color);
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+  }
+  
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* Pulse-specific Styles */
+  .data-time-button {
+    background-color: var(--secondary-bg);
+    color: var(--text-primary);
+    border: 1px solid var(--warning);
+    padding: 0.5rem 1rem;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: var(--transition);
+    min-width: 120px;
+  }
+  
+  .data-time-button:hover {
+    background-color: var(--warning);
+    color: var(--primary-bg);
+  }
+  
+  /* Responsive Design */

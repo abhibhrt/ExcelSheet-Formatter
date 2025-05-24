@@ -40,7 +40,7 @@ const ExcelToZipApp = ({ jsonData }) => {
   return (
     <>
     <AlertComponent/>
-    <span className="startBlog" onClick={handleDownloadZip}>Zip <i className="fa fa-download"></i></span>
+    <span style={{cursor: "pointer", padding: "0 0.5rem"}} onClick={handleDownloadZip}>Zip <i className="fa fa-download"></i></span>
     </>
   );
 };

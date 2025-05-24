@@ -1,4 +1,5 @@
 import { useState, useEffect, useCallback } from 'react';
+import '../stylesheets/alert.css';
 
 export const useAlert = () => {
   const [alertState, setAlertState] = useState({ 

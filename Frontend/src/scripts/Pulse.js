@@ -1,92 +1,118 @@
 import React, { useState, useEffect } from "react";
 import DOMPurify from "dompurify";
 import { useAlert } from "./Alert";
+import '../stylesheets/pulseblog.css';
 
 function Pulse({ jsonData }) {
-    const [Title, setTitle] = useState(null);
-    const [Content, setContent] = useState(null);
-    const [Tags, setTags] = useState(null);
-    const [Index, setIndex] = useState(0);
-    const [Time, setTime] = useState("Set Time")
+    const [title, setTitle] = useState(null);
+    const [content, setContent] = useState(null);
+    const [tags, setTags] = useState(null);
+    const [currentIndex, setCurrentIndex] = useState(0);
+    const [time, setTime] = useState("Set Time");
     const { showAlert, AlertComponent } = useAlert();
 
     useEffect(() => {
-        if (jsonData.length > 0 && Index >= 0 && Index < jsonData.length) {
-            const currentData = jsonData[Index];
+        if (jsonData.length > 0 && currentIndex >= 0 && currentIndex < jsonData.length) {
+            const currentData = jsonData[currentIndex];
             setTitle(currentData.Column1);
             setContent(currentData.Column2);
             setTags(currentData.Column3);
         }
-    }, [Index, jsonData]);
+    }, [currentIndex, jsonData]);
 
     const handleNext = () => {
-        if (Index < jsonData.length - 1) {
-            setIndex((prev) => prev + 1);
+        if (currentIndex < jsonData.length - 1) {
+            setCurrentIndex((prev) => prev + 1);
         } else {
             showAlert("You Have Reached the End of Data", 'warning');
         }
     };
 
     const handlePrev = () => {
-        if (Index > 0) {
-            setIndex((prev) => prev - 1);
+        if (currentIndex > 0) {
+            setCurrentIndex((prev) => prev - 1);
         } else {
             showAlert("This is the Start of Data", 'warning');
         }
     };
 
-    const handleCopy = async (elementId) => {
-        const mainData = document.getElementById(elementId);
+    const handleCopyHtml = async () => {
+        const mainData = document.getElementById("data-html-content");
         const htmlContent = mainData.innerHTML;
         const blob = new Blob([htmlContent], { type: "text/html" });
         const clipboardItem = new ClipboardItem({ "text/html": blob });
         await navigator.clipboard.write([clipboardItem]);
     };
 
-    const handleCopyn = (text) => {
+    const handleCopyText = (text) => {
         navigator.clipboard.writeText(text || "");
-      };
+    };
 
-    const handleTime = () =>{
-        if(Time === "Set Time"){
-            setTime(prompt("Enter Time:") || "Set Time")
+    const handleTime = () => {
+        if(time === "Set Time") {
+            setTime(prompt("Enter Time:") || "Set Time");
+        } else {
+            navigator.clipboard.writeText(time);
         }
-        else{
-            navigator.clipboard.writeText(Time);
-        }
-    }
-
+    };
 
     return (
-        <div className="blog-cont">
+        <div className="data-viewer">
             <AlertComponent/>
-            <div className="cont-1">
-                <button id="prevButton" className="nepr" onClick={handlePrev}>Prev</button>
+            <div className="data-navigation">
+                <button 
+                    className="data-navigation__button" 
+                    onClick={handlePrev}
+                    disabled={currentIndex === 0}
+                >
+                    Previous
+                </button>
                 <input
                     type="text"
-                    className="num-in"
-                    id="NumIn"
-                    value={Index}
+                    className="data-navigation__input"
+                    value={currentIndex}
                     onChange={(e) => {
                         let val = parseInt(e.target.value) || 0;
-                        if (val >= 0 && val < jsonData.length) setIndex(val);
+                        if (val >= 0 && val < jsonData.length) setCurrentIndex(val);
                     }}
                 />
-                <button id="nextButton" className="nepr" onClick={handleNext}>Next</button>
+                <button 
+                    className="data-navigation__button" 
+                    onClick={handleNext}
+                    disabled={currentIndex === jsonData.length - 1}
+                >
+                    Next
+                </button>
             </div>
-            <div className="cont-2">
-                <button id="copyTitle" className="copy-btn" onClick={() => handleCopyn(Title)}>Copy Title</button>
-                <button id="copyTime" className="copy-btn" onClick={() => handleTime()}>{Time}</button>
-                <button id="copyHtml" className="copy-btn" onClick={() => handleCopy("htmlContents")}>Copy Content</button>
-                <button id="copyTags" className="copy-btn" onClick={() => handleCopyn(Tags)}>Copy Tags</button>
+            <div className="data-actions">
+                <button className="data-action__button" onClick={() => handleCopyText(title)}>
+                    Copy Title
+                </button>
+                <button className="data-time-button" onClick={handleTime}>
+                    {time}
+                </button>
+                <button className="data-action__button" onClick={handleCopyHtml}>
+                    Copy Content
+                </button>
+                <button className="data-action__button" onClick={() => handleCopyText(tags)}>
+                    Copy Tags
+                </button>
             </div>
             {jsonData.length > 0 ? (
-                <div className="cont-3">
-                    <h2 id="titles" style={{ color: "white", textAlign: "center" }}>{Title}</h2>
-                    <p id="htmlContents" className="content csz" dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(Content) }} />
-                    <div id="tags" className="content csz">{Tags}</div>
+                <div className="data-content">
+                    <h2 className="data-title">{title}</h2>
+                    <div 
+                        id="data-html-content" 
+                        className="data-html-content" 
+                        dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(content) }} 
+                    />
+                    <div className="data-tags">{tags}</div>
                 </div>
-            ) : <div className="uploadwarn">Please! First Upload Excel (.xlsx) File Format <i className="fa fa-warning" ></i></div> }
+            ) : (
+                <div className="data-upload-warning">
+                    <p>Please! First Upload Excel (.xlsx) File Format</p> <i className="fa fa-warning"/>
+                </div>
+            )}
         </div>
     );
 }

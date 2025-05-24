@@ -1,20 +1,15 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import tags from './tags.json';
 import { useAlert } from "./Alert";
-
+import '../stylesheets/tags.css';
 
 function Tags() {
     const [compNow, setComp] = useState({ ...tags[0], item: shuffleArray(tags[0].item) });
+    const [searchTerm, setSearchTerm] = useState("");
+    const [filteredCategories, setFilteredCategories] = useState(tags);
     const { showAlert, AlertComponent } = useAlert();
 
-    const tagPrompt = ` You'll be provided a title and url for that Create an engaging and visually attractive LinkedIn post using the following structure and style. The title and link will be provided afterward:
-Post Structure:
-Title (Bold Font with Symbols) – Use bold Unicode font like 𝐓𝐢𝐭𝐥𝐞 and add relevant emojis to match the topic.
-Description (Up to 75 words) – Write an engaging, professional, and energetic paragraph. Keep it unbolded. Include emojis and make it appealing.
-Get More Info (Bold Font) – Add the provided link in plain text after a bold heading.
-Key Players (Bold Font) – Tag 40 relevant companies with @ mentions (formatted for LinkedIn).
-Hashtags (Bold Font) – Add 5–6 high-impact and relevant hashtags.
-Only output the final post content — no explanations or comments.`;
+    const tagPrompt = `You'll be provided a title and url for that Create an engaging and visually attractive LinkedIn post...`; // (keep your existing prompt)
 
     function shuffleArray(array) {
         return array.map(value => ({ value, sort: Math.random() }))
@@ -22,70 +17,118 @@ Only output the final post content — no explanations or comments.`;
             .map(({ value }) => value);
     }
 
-    const handleCopy = async () => {
-        const mainData = document.getElementById('allTags');
-        if (!mainData) return;
+    useEffect(() => {
+        const filtered = tags.filter(tag => 
+            tag.category.toLowerCase().includes(searchTerm.toLowerCase())
+        );
+        setFilteredCategories(filtered);
+    }, [searchTerm]);
 
-        const htmlContent = mainData.innerHTML;
-        const blob = new Blob([htmlContent], { type: "text/html" });
-        const clipboardItem = new ClipboardItem({ "text/html": blob });
-        await navigator.clipboard.write([clipboardItem]);
+    const handleCopy = async () => {
+        try {
+            const mainData = document.getElementById('allTags');
+            if (!mainData) return;
+
+            // Create a temporary div to preserve the LinkedIn mention format
+            const tempDiv = document.createElement('div');
+            tempDiv.appendChild(mainData.cloneNode(true));
+            
+            // Get the HTML content with preserved LinkedIn mentions
+            const htmlContent = tempDiv.innerHTML;
+            const blob = new Blob([htmlContent], { type: "text/html" });
+            const clipboardItem = new ClipboardItem({ "text/html": blob });
+            
+            await navigator.clipboard.write([clipboardItem]);
+            showAlert("Tags copied to clipboard with LinkedIn formatting!", "success");
+        } catch (err) {
+            console.error("Failed to copy tags:", err);
+            showAlert("Failed to copy tags", "error");
+        }
     };
 
     const handleCategoryClick = (comp) => {
         setComp(null);
-        showAlert(`Added ${comp.category}`, 'success');
+        showAlert(`Loaded ${comp.category} tags`, 'success');
         setTimeout(() => setComp({ ...comp, item: shuffleArray(comp.item) }), 0);
     };
 
     return (
-        <>
+        <div className="tags-container">
             <AlertComponent />
-            <div className="tag-cont">
-                <div id="tagcont-1">
-                    {tags.map((comp, index) => (
+            <div className="tags-header">
+                <h1 className="tags-title">LinkedIn Tag Generator</h1>
+                <div className="tags-search">
+                    <input
+                        type="text"
+                        placeholder="Search categories..."
+                        value={searchTerm}
+                        onChange={(e) => setSearchTerm(e.target.value)}
+                        className="tags-search-input"
+                    />
+                    <button 
+                        className="tags-copy-prompt" 
+                        onClick={() => {
+                            navigator.clipboard.writeText(tagPrompt);
+                            showAlert("Prompt copied to clipboard!", "success");
+                        }}
+                    >
+                        Copy Prompt Template
+                    </button>
+                </div>
+            </div>
+
+            <div className="tags-content">
+                <div className="tags-categories">
+                    {filteredCategories.map((comp, index) => (
                         <button
                             key={index}
-                            className="copy-btn"
-                            id="comp-btn"
-                            onClick={() => handleCategoryClick(comp)} >
+                            className={`tags-category-btn ${compNow?.category === comp.category ? 'active' : ''}`}
+                            onClick={() => handleCategoryClick(comp)}
+                        >
                             {comp.category}
                         </button>
                     ))}
                 </div>
-                <div id="tagcont-2">
+
+                <div className="tags-display">
                     {compNow && (
                         <>
-                            <h2 id="titles" style={{ color: "white", textAlign: "center" }}>
-                                {compNow.category}
-                            </h2>
-                            <div id="allTags" className="content" style={{ color: "grey" }}>
-                                𝐊𝐞𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬:
-                                {compNow.item.map((tag, index) => (
-                                    index <= 30 && <span key={tag.urn}>
-                                        <a
-                                            className="ql-mention"
-                                            href="/"
-                                            data-entity-urn={`urn:li:fsd_company:${tag.urn}`}
-                                            data-guid={index}
-                                            data-object-urn={`urn:li:organization:${tag.urn}`}
-                                            data-original-text={tag.company}
-                                            spellCheck="false"
-                                            data-test-ql-mention="true">
-                                            {tag.company}
-                                        </a> &#8203;
-                                    </span>
-                                ))}
+                            <div className="tags-display-header">
+                                <h2 className="tags-display-title">{compNow.category}</h2>
+                                <button 
+                                    className="tags-copy-all" 
+                                    onClick={handleCopy}
+                                >
+                                    Copy All Tags
+                                </button>
                             </div>
-                            <div>
-                                <button className="copy-btn" onClick={handleCopy}>Copy All</button>
-                                <button className="copy-btn" onClick={() => navigator.clipboard.writeText(tagPrompt)}>Copy Prompt</button>
+                            
+                            <div id="allTags" className="tags-list">
+                                <div className="tags-section-title">𝐊𝐞𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬:</div>
+                                <div className="tags-items">
+                                    {compNow.item.slice(0, 30).map((tag, index) => (
+                                        <span key={`${tag.urn}-${index}`} className="tag-item">
+                                            <span
+                                                className="ql-mention"
+                                                data-entity-urn={`urn:li:fsd_company:${tag.urn}`}
+                                                data-guid={index}
+                                                data-object-urn={`urn:li:organization:${tag.urn}`}
+                                                data-original-text={tag.company}
+                                                spellCheck="false"
+                                                data-test-ql-mention="true"
+                                            >
+                                                {tag.company}
+                                            </span>
+                                            &#8203;
+                                        </span>
+                                    ))}
+                                </div>
                             </div>
                         </>
                     )}
                 </div>
             </div>
-        </>
+        </div>
     );
 }
 

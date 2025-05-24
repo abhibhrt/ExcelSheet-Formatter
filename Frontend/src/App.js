@@ -3,7 +3,7 @@ import Blog from "./scripts/Blog.js";
 import Home from "./scripts/Home.js";
 import Pulse from "./scripts/Pulse.js";
 import Zipping from "./scripts/Zipping.js";
-import "./stylesheets/App.css";
+import "./stylesheets/Home.css";
 import * as XLSX from "xlsx";
 import Tags from './scripts/Tags.js';
 import Onpage from './scripts/Onpage.js';
@@ -13,9 +13,9 @@ import { useAlert } from "./scripts/Alert.js";
 
 function App() {
   const [jsonData, setJsonData] = useState([]);
-  const [upStatus, setStatus] = useState(<h2 style={{ color: 'red' }}>Upload Your File Here</h2>);
+  const [uploadStatus, setUploadStatus] = useState(<h2 className="upload-status upload-status--initial">Upload Your File Here</h2>);
   const { showAlert, AlertComponent } = useAlert();
-  const [info, setInfo] = useState({
+  const [deviceInfo, setDeviceInfo] = useState({
     ip: '',
     city: '',
     device: '',
@@ -30,14 +30,14 @@ function App() {
         const res = await fetch('https://ipinfo.io/json?token=da9a42f22e929a');
         const data = await res.json();
 
-        setInfo({
+        setDeviceInfo({
           ip: data.ip || '',
           city: data.city || '',
           device,
         });
       } catch (err) {
         showAlert(`FingerprintJS or IP fetch failed: ${err}`, 'error');
-        setInfo(prev => ({
+        setDeviceInfo(prev => ({
           ...prev,
           device: '',
         }));
@@ -47,21 +47,15 @@ function App() {
   }, [showAlert]);
 
   useEffect(() => {
-    if (!info.ip && !info.device) return;
+    if (!deviceInfo.ip && !deviceInfo.device) return;
 
     const requestServer = async () => {
       try {
-        const ip = info.ip;
-        const device = info.device;
-        const city = info.city;
+        const { ip, device, city } = deviceInfo;
         const req = await fetch(process.env.REACT_APP_API_URL, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            ip,
-            city,
-            device,
-          }),
+          body: JSON.stringify({ ip, city, device }),
         });
 
         const res = await req.json();
@@ -77,14 +71,13 @@ function App() {
     };
 
     requestServer();
-  }, [info, showAlert]);
+  }, [deviceInfo, showAlert]);
 
-  // {{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{ this is upload }}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}
   const handleFileChange = useCallback((event) => {
     const file = event.target.files[0];
     if (file) {
       const reader = new FileReader();
-      setStatus(<h2 style={{ color: 'yellow' }}>Uploading Please Wait...</h2>);
+      setUploadStatus(<h2 className="upload-status upload-status--loading">Uploading Please Wait...</h2>);
       reader.onload = (e) => {
         const data = new Uint8Array(e.target.result);
         const workbook = XLSX.read(data, { type: "array" });
@@ -113,35 +106,36 @@ function App() {
     }
   }, [showAlert]);
 
-
   useEffect(() => {
     if (jsonData.length > 0) {
-      setStatus(<h2 style={{ color: 'green' }}>File Uploaded Successfully!</h2>);
+      setUploadStatus(<h2 className="upload-status upload-status--success">File Uploaded Successfully!</h2>);
     }
   }, [jsonData]);
 
   return (
     <Router>
       <AlertComponent />
-      <nav>
-        <div><span className="heading">Excel Formatter</span></div>
-        <div className="nvBtns">
-          <NavLink to="/" className="startBlog">Upload</NavLink>
-          <NavLink to="/pulse" className="startBlog">Pulse</NavLink>
-          <NavLink to="/blog" className="startBlog">Blogs</NavLink>
-          <NavLink to="/onpage" className="startBlog">Onpage</NavLink>
-          <NavLink to="/tags" className="startBlog">Tagging</NavLink>
-          <Zipping jsonData={jsonData} />
+      <nav className="app-navbar">
+        <div className="app-navbar__logo"><span className="app-navbar__logo-text">Excel Formatter</span></div>
+        <div className="app-navbar__links">
+          <NavLink to="/" className="app-navbar__link">Upload</NavLink>
+          <NavLink to="/pulse" className="app-navbar__link">Pulse</NavLink>
+          <NavLink to="/blog" className="app-navbar__link">Blogs</NavLink>
+          <NavLink to="/onpage" className="app-navbar__link">Onpage</NavLink>
+          <NavLink to="/tags" className="app-navbar__link">Tagging</NavLink>
+          <Zipping jsonData={jsonData} className="app-navbar__zip-button" />
         </div>
       </nav>
-      <div className="spaceup"></div>
-      <Routes>
-        <Route path="/" element={<Home handleFileChange={handleFileChange} upStatus={upStatus} />} />
-        <Route path="/blog" element={<Blog jsonData={jsonData} />} />
-        <Route path="/pulse" element={<Pulse jsonData={jsonData} />} />
-        <Route path="/tags" element={<Tags />} />
-        <Route path="/onpage" element={<Onpage jsonData={jsonData} />} />
-      </Routes>
+      <div className="app-navbar-spacer"></div>
+      <main className="app-main-content">
+        <Routes>
+          <Route path="/" element={<Home handleFileChange={handleFileChange} uploadStatus={uploadStatus} />} />
+          <Route path="/blog" element={<Blog jsonData={jsonData} />} />
+          <Route path="/pulse" element={<Pulse jsonData={jsonData} />} />
+          <Route path="/tags" element={<Tags />} />
+          <Route path="/onpage" element={<Onpage jsonData={jsonData} />} />
+        </Routes>
+      </main>
     </Router>
   );
 }

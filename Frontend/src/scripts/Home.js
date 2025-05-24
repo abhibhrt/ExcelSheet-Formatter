@@ -1,33 +1,35 @@
 import React from "react";
 
-function Home({ handleFileChange, upStatus }) {
+function Home({ handleFileChange, uploadStatus }) {
     return (
-        <div className="homeContainer">
-            <header>
-                <h1>Welcome to Excel Formatter</h1>
-                <p>A simple tool to upload and process Excel files efficiently.</p>
+        <div className="home-container">
+            <header className="home-header">
+                <h1 className="home-header__title">Welcome to Excel Formatter</h1>
             </header>
-            <section className="uploadSection">
-                {upStatus}
-                <input type="file" className="infile" id="fileInput" accept=".xlsx" onChange={handleFileChange} />
+            <section className="home-upload-section">
+                {uploadStatus}
+                <label htmlFor="fileInput" className="home-upload__label">
+                    Choose Excel File
+                    <input type="file" className="home-upload__input" id="fileInput" accept=".xlsx" onChange={handleFileChange} />
+                </label>
             </section>
-            <section className="aboutSection">
-                <h2>How It Works</h2>
-                <strong>
-                    This application allows you to upload an Excel (.xlsx) file, which will be processed to extract data <br />
-                    The extracted data will be displayed in a structured format inside the blog or pulse section
-                </strong>
-                <ol className="instruction">
-                    <li>Click on the above (Upload) Button and upload your excel file</li>
-                    <li>Wait untill your .xlsx file is uploaded Successfully</li>
-                    <li>Then data will be extracted and formatted automatically.</li>
-                    <li>Visit the "Blogs" or "Pulse" section to view the processed data.</li>
-                    <li>Click on Zip button for download proccessed files of excel data</li>
+            <section className="home-info-section">
+                <h2 className="home-info__title">How It Works</h2>
+                <p className="home-info__description">
+                    This application allows you to upload an Excel (.xlsx) file, which will be processed to extract data.
+                    The extracted data will be displayed in a structured format inside the blog or pulse section.
+                </p>
+                <ol className="home-instructions">
+                    <li className="home-instruction__item">Click on the above (Upload) Button and upload your excel file</li>
+                    <li className="home-instruction__item">Wait until your .xlsx file is uploaded Successfully</li>
+                    <li className="home-instruction__item">Then data will be extracted and formatted automatically.</li>
+                    <li className="home-instruction__item">Visit the "Blogs" or "Pulse" section to view the processed data.</li>
+                    <li className="home-instruction__item">Click on Zip button for download processed files of excel data</li>
                 </ol>
             </section>
-            <footer>
-                <a className="credit" href='https://abhibhrt.netlify.app/admin' style={{fontSize:'20px'}} >Admin Page</a>
-                <p>&copy;copyright <span style={{fontSize: '18px'}} className="credit">@Naushad Ansari</span> || All rights reserved</p>
+            <footer className="home-footer">
+                <a className="home-footer__link" href='https://abhibhrt.netlify.app/admin'>Admin Page</a>
+                <p className="home-footer__copyright">&copy;copyright <span className="home-footer__author">@Naushad Ansari</span> || All rights reserved</p>
             </footer>
         </div>
     );
