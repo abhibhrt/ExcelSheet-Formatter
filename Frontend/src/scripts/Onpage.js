@@ -1,20 +1,30 @@
 /* global tinymce */
-import React, { useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import '../stylesheets/onpage.css';
+import { useAlert } from './Alert';
 
-export default function MarketResearchReport(){
-  const firstRow = {
-    id: 1043027,
-    keyword: "Cytokine Detection Service Market",
-    image: "https://www.marketresearchintellect.com/images/05-24/cyclophosphamide-injection-market.webp"
-  };
+export default function MarketResearchReport({ jsonData }) {
+  const { showAlert, AlertComponent } = useAlert();
+  const editorRef = useRef(null);
+  const [Index, setIndex] = useState(0);
+  const [data, setData] = useState({
+    Column1: "",
+    Column2: "",
+    Column3: "",
+    Column4: "",
+    Column5: "",
+    Column6: "",
+    Column7: "",
+    Column8: "",
+    Column9: "",
+  });
 
-  const secondRow = {
-    val1: 12,
-    val2: 23,
-    CAGR: 5.6,
-    unit: "Million"
-  };
+  useEffect(() => {
+    if (jsonData.length > 0 && Index >= 0 && Index < jsonData.length) {
+      const currentData = jsonData[Index];
+      setData(currentData);
+    }
+  }, [Index, jsonData]);
 
   const parasTop = {
     para1: "The market for cyclophosphamide injections is anticipated to develop significantly over the projected period due to improvements in chemotherapy treatments and an increase in cancer diagnoses. Because of its efficacy in combination therapy, cyclophosphamide, which is commonly used to treat a variety of malignancies, including lymphomas, leukemia, and breast cancer, is expected to see increased demand. Increasing global healthcare investments and bettering healthcare infrastructure, especially in emerging nations, are also helping the industry. It is anticipated that the market for cyclophosphamide injections will keep growing until 2032 due to continuous research and development efforts aimed at improving the medication's efficacy and safety profile.",
@@ -33,27 +43,27 @@ export default function MarketResearchReport(){
   };
 
   const richContent = `
-    <h2>${firstRow.keyword} and Projections</h2>
-    <p>The <strong>${firstRow.keyword}</strong> was valued at <strong style="color:#ca7d00">USD ${secondRow.val1}
-        ${secondRow.unit} in 2025</strong> and is expected to reach <strong style="color:#ca7d00">USD ${secondRow.val2}
-        ${secondRow.unit} by 2032</strong>, growing at a <strong style="color:#ca7d00">${secondRow.CAGR} CAGR from 2025 to
+    <h2>${data.Column2} and Projections</h2>
+    <p>The <strong>${data.Column2}</strong> was valued at <strong style="color:#ca7d00">USD ${data.Column6}
+        ${data.Column9} in 2025</strong> and is expected to reach <strong style="color:#ca7d00">USD ${data.Column7}
+        ${data.Column9} by 2032</strong>, growing at a <strong style="color:#ca7d00">${data.Column8}% CAGR from 2025 to
         2032.</strong> The research includes several divisions as well as an analysis of the trends and factors
       influencing and playing a substantial role in the market.</p>
       <p>${parasTop.para1}</p>
       <p>${parasTop.para2}</p>
 
     <p><strong style="color:#ca7d00">&gt;&gt;&gt;Download the Sample Report Now:-</strong> <a
-        href="https://www.marketresearchintellect.com/download-sample/?rid=${firstRow.id}" target="_blank"
-        rel="noopener noreferrer">https://www.marketresearchintellect.com/download-sample/?rid=${firstRow.id}</a></p>
+        href="https://www.marketresearchintellect.com/download-sample/?rid=${data.Column1}" target="_blank"
+        rel="noopener noreferrer">https://www.marketresearchintellect.com/download-sample/?rid=${data.Column1}</a></p>
 
-    <p><img src="${firstRow.image}" title="${firstRow.keyword} Size &amp; Scope" width="1400" /></p>
-    <div style="text-align: center;"><strong class="text-danger blink">To Get Detailed Analysis &gt;</strong> <a href="https://www.marketresearchintellect.com/download-sample/?rid=${firstRow.id}" target="_blank"><strong>Request Sample Report</strong></a></div>
+    <p><img src="${data.Column5}" title="${data.Column2} Size &amp; Scope" width="1400" /></p>
+    <div style="text-align: center;"><strong class="text-danger blink">To Get Detailed Analysis &gt;</strong> <a href="https://www.marketresearchintellect.com/download-sample/?rid=${data.Column1}" target="_blank"><strong>Request Sample Report</strong></a></div>
 
-    <p>The <strong>${firstRow.keyword}</strong> report is meticulously tailored for a specific market segment, offering a detailed and thorough overview of an industry or multiple sectors. This all-encompassing report leverages both quantitative and qualitative methods to project trends and developments from 2024 to 2032. It covers a broad spectrum of factors, including product pricing strategies, the market reach of products and services across national and regional levels, and the dynamics within the primary market as well as its submarkets. Furthermore, the analysis takes into account the industries that utilize end applications, consumer behaviour, and the political, economic, and social environments in key countries.</p>
+    <p>The <strong>${data.Column2}</strong> report is meticulously tailored for a specific market segment, offering a detailed and thorough overview of an industry or multiple sectors. This all-encompassing report leverages both quantitative and qualitative methods to project trends and developments from 2024 to 2032. It covers a broad spectrum of factors, including product pricing strategies, the market reach of products and services across national and regional levels, and the dynamics within the primary market as well as its submarkets. Furthermore, the analysis takes into account the industries that utilize end applications, consumer behaviour, and the political, economic, and social environments in key countries.</p>
     <p>The structured segmentation in the report ensures a multifaceted understanding of the Cyclophosphamide Injection Market from several perspectives. It divides the market into groups based on various classification criteria, including end-use industries and product/service types. It also includes other relevant groups that are in line with how the market is currently functioning. The report&rsquo;s in-depth analysis of crucial elements covers market prospects, the competitive landscape, and corporate profiles.</p>
     <p>The assessment of the major industry participants is a crucial part of this analysis. Their product/service portfolios, financial standing, noteworthy business advancements, strategic methods, market positioning, geographic reach, and other important indicators are evaluated as the foundation of this analysis. The top three to five players also undergo a SWOT analysis, which identifies their opportunities, threats, vulnerabilities, and strengths. The chapter also discusses competitive threats, key success criteria, and the big corporations' present strategic priorities. Together, these insights aid in the development of well-informed marketing plans and assist companies in navigating the always-changing Cyclophosphamide Injection Market environment.</p>
 
-    <h3>${firstRow.keyword} Dynamics</h3>
+    <h3>${data.Column2} Dynamics</h3>
 
     <h4>Market Drivers:</h4>
     <ol>
@@ -175,11 +185,9 @@ export default function MarketResearchReport(){
     <p>• In case of any queries or customization requirements please connect with our sales team, who will ensure that
       your requirements are met.</p>
     <p><strong style="color:#ca7d00">&gt;&gt;&gt; Ask For Discount @-</strong> <a
-        href="https://www.marketresearchintellect.com/ask-for-discount/?rid=${firstRow.id}" target="_blank"
-        rel="noopener noreferrer">https://www.marketresearchintellect.com/ask-for-discount/?rid=${firstRow.id}</a></p>
+        href="https://www.marketresearchintellect.com/ask-for-discount/?rid=${data.Column1}" target="_blank"
+        rel="noopener noreferrer">https://www.marketresearchintellect.com/ask-for-discount/?rid=${data.Column1}</a></p>
   `;
-
-  const editorRef = useRef(null);
 
   useEffect(() => {
     const script = document.createElement("script");
@@ -218,17 +226,54 @@ export default function MarketResearchReport(){
         notif.style.display = 'none';
       }
     });
-  
+
     observer.observe(document.body, { childList: true, subtree: true });
-  
+
     return () => observer.disconnect();
   }, []);
-  
-  
+
+  const handleNext = () => {
+    if (Index < jsonData.length - 1) {
+      setIndex((prev) => prev + 1);
+    } else {
+      showAlert("You Have Reached the End of Data", 'warning');
+    }
+  };
+
+  const handlePrev = () => {
+    if (Index > 0) {
+      setIndex((prev) => prev - 1);
+    } else {
+      showAlert("This is the Start of Data", 'warning');
+    }
+  };
+
 
   return (
-    <div>
-      <div id='data-render' ref={editorRef} />
+    <div className="blog-cont">
+      <AlertComponent />
+      <div className="cont-1">
+        <button id="prevButton" className="nepr" onClick={handlePrev}>Prev</button>
+        <input
+          type="text"
+          className="num-in"
+          id="NumIn"
+          value={Index}
+          onChange={(e) => {
+            let val = parseInt(e.target.value) || 0;
+            if (val >= 0 && val < jsonData.length) setIndex(val);
+          }}
+        />
+        <button id="nextButton" className="nepr" onClick={handleNext}>Next</button>
+      </div>
+      <div className="cont-2 oncont-2">
+        <a className="copy-btn" href={data.Column3} target="_blank" rel="noopener noreferrer">Live Url</a>
+        <a className="copy-btn" href={data.Column4} target="_blank" rel="noopener noreferrer">Edit Url</a>
+      </div>
+      {
+        jsonData.length > 0 ? <div id='data-render' ref={editorRef} /> :
+          <div className="uploadwarn">Please! First Upload Excel (.xlsx) File Format <i className="fa fa-warning" ></i></div>
+      }
     </div>
   );
 }

@@ -95,6 +95,12 @@ function App() {
           Column1: row[0] || "",
           Column2: row[1] || "",
           Column3: row[2] || "",
+          Column4: row[3] || "",
+          Column5: row[4] || "",
+          Column6: row[5] || "",
+          Column7: row[6] || "",
+          Column8: row[7] || "",
+          Column9: row[8] || "",
         }));
         setJsonData(formattedData);
       };
@@ -103,6 +109,7 @@ function App() {
       showAlert("Please select a valid Excel file.", 'error');
     }
   }, [showAlert]);
+
 
   useEffect(() => {
     if (jsonData.length > 0) {
@@ -119,8 +126,8 @@ function App() {
           <NavLink to="/" className="startBlog">Upload</NavLink>
           <NavLink to="/pulse" className="startBlog">Pulse</NavLink>
           <NavLink to="/blog" className="startBlog">Blogs</NavLink>
-          <NavLink to="/tags" className="startBlog">Tagging</NavLink>
           <NavLink to="/onpage" onClick={() => showAlert(' Still In Progress', 'info')} className="startBlog">Onpage</NavLink>
+          <NavLink to="/tags" className="startBlog">Tagging</NavLink>
           <Zipping jsonData={jsonData} />
         </div>
       </nav>
@@ -130,7 +137,7 @@ function App() {
         <Route path="/blog" element={<Blog jsonData={jsonData} />} />
         <Route path="/pulse" element={<Pulse jsonData={jsonData} />} />
         <Route path="/tags" element={<Tags />} />
-        <Route path="/onpage" element={<Onpage  />} />
+        <Route path="/onpage" element={<Onpage jsonData={jsonData} />} />
       </Routes>
     </Router>
   );
