@@ -9,16 +9,12 @@ function Home({ handleFileChange, uploadStatus }) {
             <section className="home-upload-section">
                 {uploadStatus}
                 <label htmlFor="fileInput" className="home-upload__label">
-                    Choose Excel File
+                    Choose File <i class="fas fa-file-upload"></i>
                     <input type="file" className="home-upload__input" id="fileInput" accept=".xlsx" onChange={handleFileChange} />
                 </label>
             </section>
             <section className="home-info-section">
-                <h2 className="home-info__title">How It Works</h2>
-                <p className="home-info__description">
-                    This application allows you to upload an Excel (.xlsx) file, which will be processed to extract data.
-                    The extracted data will be displayed in a structured format inside the blog or pulse section.
-                </p>
+                <h2 className="home-info__title"><a className="home-footer__link" href='https://abhibhrt.netlify.app/admin'>How It Works <i class="fa-solid fa-link"/></a></h2>
                 <ol className="home-instructions">
                     <li className="home-instruction__item">Click on the above (Upload) Button and upload your excel file</li>
                     <li className="home-instruction__item">Wait until your .xlsx file is uploaded Successfully</li>
@@ -28,8 +24,7 @@ function Home({ handleFileChange, uploadStatus }) {
                 </ol>
             </section>
             <footer className="home-footer">
-                <a className="home-footer__link" href='https://abhibhrt.netlify.app/admin'>Admin Page</a>
-                <p className="home-footer__copyright">&copy;copyright <span className="home-footer__author">@Naushad Ansari</span> || All rights reserved</p>
+                <p className="home-footer__copyright">&copy;copyright <a className="home-footer__author" href='https://www.instagram.com/mdnaushaad_786/' target="_blank" rel="noopener noreferrer">@Naushad Ansari</a> || All rights reserved</p>
             </footer>
         </div>
     );

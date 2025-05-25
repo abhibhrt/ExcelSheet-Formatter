@@ -110,7 +110,7 @@
   
   /* Home Component Styles */
   .home-container {
-    padding: 2rem;
+    padding: 1.5rem;
     max-width: 1200px;
     margin: 0 auto;
     min-height: calc(100vh - 80px);
@@ -135,9 +135,9 @@
   
   .home-upload-section {
     background-color: var(--secondary-bg);
-    padding: 1rem;
+    padding: 1.5rem;
     border-radius: var(--border-radius);
-    margin-bottom: 1rem;
+    margin-bottom: 5px;
     text-align: center;
     box-shadow: var(--box-shadow);
     border: 1px dashed rgba(156, 39, 176, 0.5);
@@ -159,10 +159,10 @@
     padding: 0.5rem 1rem;
     border-radius: var(--border-radius);
     cursor: pointer;
-    margin-top: 1rem;
     transition: var(--transition);
     font-weight: 500;
     border: 1px solid #e41ff6;
+    font-size: 15px;
   }
   
   .home-upload__label:hover {
@@ -172,40 +172,32 @@
   
   .home-info-section {
     background-color: var(--secondary-bg);
-    padding: 2rem;
+    padding: 1.2rem;
     border-radius: var(--border-radius);
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     box-shadow: var(--box-shadow);
   }
   
   .home-info__title {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.3rem;
     color: var(--accent-color);
     font-size: 1.8rem;
   }
   
-  .home-info__description {
-    display: block;
-    margin-bottom: 1.5rem;
-    line-height: 1.6;
-    color: var(--text-secondary);
-  }
-  
   .home-instructions {
     padding-left: 1.5rem;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
   }
   
   .home-instruction__item {
     margin-bottom: 1rem;
-    line-height: 1.6;
     color: var(--text-secondary);
   }
   
   .home-footer {
     text-align: center;
     margin-top: auto;
-    padding: 2rem 0;
+    padding: 10px;
     color: var(--text-secondary);
     border-top: 1px solid rgba(255, 255, 255, 0.1);
   }
@@ -214,9 +206,7 @@
     color: var(--accent-color);
     text-decoration: none;
     transition: var(--transition);
-    display: inline-block;
-    margin-bottom: 1rem;
-    font-size: 1.25rem;
+    font-family: Brush Script MT, Brush Script Std, cursive;
   }
   
   .home-footer__link:hover {
@@ -230,7 +220,9 @@
   
   .home-footer__author {
     color: var(--accent-color);
-    font-size: 1.1rem;
+    font-size: 1.3rem;
+    text-decoration: none;
+    font-family: Brush Script MT, Brush Script Std, cursive;
   }
   
   /* Upload Status Styles */
