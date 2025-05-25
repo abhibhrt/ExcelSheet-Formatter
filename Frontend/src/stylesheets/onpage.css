@@ -165,4 +165,6 @@
       min-width: calc(50% - 1rem);
     }
   }
-  
+  .data-render{
+    height: 100vh;
+  }

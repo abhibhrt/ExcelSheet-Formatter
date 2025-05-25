@@ -136,12 +136,12 @@ export default function MarketResearchReport({ data, fax }) {
         toolbar: false,
         readonly: true,
         statusbar: false,
-        content_style: '',
+        content_style: 'height: 100vh;',
         setup: (editor) => {
           editor.on("init", () => {
             editor.setContent(richContent);
           });
-        },
+        }
       });
     };
 
@@ -169,7 +169,7 @@ export default function MarketResearchReport({ data, fax }) {
 
   return (
     <div className="blog-cont">
-      <div id='data-render' ref={editorRef} /> 
+      <div id='data-render' style={{height: '100vh'}}  ref={editorRef} /> 
     </div>
   );
 }

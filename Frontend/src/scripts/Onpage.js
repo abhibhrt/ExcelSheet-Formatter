@@ -42,6 +42,12 @@ export default function Onpage({ jsonData }) {
         if (currentIndex < jsonData.length - 1) {
             setCurrentIndex((prev) => prev + 1);
             setIsGenerated(false);
+            setParagraphs({
+                para1: "",
+                para2: "",
+                para3: "",
+                para4: "",
+            });
         } else {
             showAlert("You Have Reached the End of Data", 'warning');
         }
@@ -51,6 +57,12 @@ export default function Onpage({ jsonData }) {
         if (currentIndex > 0) {
             setCurrentIndex((prev) => prev - 1);
             setIsGenerated(false);
+            setParagraphs({
+                para1: "",
+                para2: "",
+                para3: "",
+                para4: "",
+            });
         } else {
             showAlert("This is the Start of Data", 'warning');
         }
