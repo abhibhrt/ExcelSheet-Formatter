@@ -65,32 +65,38 @@ export default function Onpage({ jsonData }) {
     };
 
     const prompts = {
-        prompt1: `Write a Growth Paragraph And Drivers Paragraph on ${currentData.Column2} in 90 And 100 Word respectively, just write the paragraph don't include any other text and always split both paragraph with <br> tag.`,
-        prompt2: `1. Write ${currentData.Column2} Dynamics (Categories - Market Drivers:, Market Challenges:, Market Trends:) in HTML format.
-                    2. Write 4 points for each Category, must be unique point, no need to paraphase.
-                    3. make sure every point having atleast 100 to 120 words with unique data.
-                    4. make sure that not having any company name and not copywrite content.
-                    5. write point title and then its description for Example (title : description )
-                    6. write each category in h4 tag like <h4>Market Drivers</h4>.
-                    7. keep same structure as <ol><li><strong>title should be here:</strong>description should be here</li></ol>`,
-        prompt3: `Provide a structured analysis of the ${currentData.Column2} including the following three sections. Each section must be formatted in HTML using <h3> for titles and <ul><li> for content. Include specific, relevant, and positive information related to the market.
-                    By Key Players: Use this HTML structure:
-                    <h3>By Key Players</h3> <ul> <li><strong>Company Name:</strong> One-sentence positive insight or market-related contribution.</li> ... </ul>
-                    By Applications: Use this HTML structure:
-                    <h3>By Applications</h3> <ul> <li><strong>Application Area:</strong> One-sentence description of how DAC chips are used in this application, including notable insights or examples.</li> ... </ul>
-                    By Types: Use this HTML structure:
-                    <h3>By Types</h3> <ul> <li><strong>DAC Type:</strong> One-sentence explanation of the type, its use case, and a key benefit or characteristic.</li> ... </ul>`,
-        prompt4: `1. Provide  the latest developments and  innovations or investments or mergers, acquisitions, and partnerships related to the key player such as ${currentData.Column12} of lull in recent months or years.
-                    2. Dont ues data including forecasted values or CAGR in the results, it must and mandatory.  
-                    3. Use business news, stock market updates, and official websites of relevant government bodies from specific countries or globally to get data. Ensure the data is current and specific to ${currentData.Column2}. 
-                    4. Each paragraph should have at least 60 or more Characters. 
-                    5. The information should be related and included with letest and recent investment or  merger or partnership, inovation or new product or service launch in recpective market which is related to above keyplayers  with each point covering significant updates or developments but make sure this is must related to lull or industry, not other industry detail. 
-                    6. Focus on concrete events or innovations by key players - These keyplayers ${currentData.Column12} in ${currentData.Column2}. 
-                    7. Exclude any source names or company names unless they are one of the key players in ${currentData.Column12} insted of using their name only use their info or data.
-                    8. Ensure the data is not sourced from restricted domains such as *Verified Market Research* or *Market Research Intellect* or verified market reports
-                    9. The data should be presented in at least three or five paragraphs, each structured with relevant and specific information related ${currentData.Column2} and this mentioned keyplayers 
-                    10. ensure data collected is in rewrite format not same to same as like source data structured
-                    11. Only give four paragraph in html format (<ul><li>paragraph</li> other 3...</ul>), dont include any other text`
+prompt1: `Write a Growth Paragraph And Drivers Paragraph on ${currentData.Column2} in 90 And 100 Word respectively, just write the paragraph don't include any other text and always split both paragraph with <br><br> tag.`,
+prompt2: `1. Write ${currentData.Column2} Dynamics (Categories - Market Drivers:, Market Challenges:, Market Trends:) in HTML format.
+2. Write 4 points for each Category, must be unique point, no need to paraphase.
+3. make sure every point having atleast 100 to 120 words with unique data.
+4. make sure that not having any company name and not copywrite content.
+5. write point title and then its description for Example (title : description )
+6. write each category in h3 tag like <h4>Market Drivers:</h4>.
+7. keep same structure as <ol><li><strong>title should be here:</strong>description should be here</li></ol>`,
+
+prompt3: `1. introduction and future scope with these keyplayers, ${currentData.Column12}, make sure its having related detail to this ${currentData.Column11} or Industry in positive way with add some important info releted to each keyplayers in one sentence in ordered list
+2. These applications ${currentData.Column11}  with info and also add some important info releted to each Application in one sentence in ordered list 
+3. also add these types ${currentData.Column10} with info also add some important info releted to each types in one sentence in ordered list.
+4. give always in html format by keeping below structure:
+<h3>By Applications</h3> 
+<ul> <li><strong>Application Area:</strong> description upto 35-45 words</li> ... </ul>
+<h3>By Products</h3> 
+<ul> <li><strong>Product Type:</strong> description upto 35-45 words</li> ... </ul>
+<h3>By Key Players</h3> 
+<ul><li><strong>Company Name:</strong> One-sentence positive insight or market-related contribution.</li> ... </ul>`,
+        
+
+prompt4: `1. Provide  the latest developments and  innovations or investments or mergers, acquisitions, and partnerships related to the key player such as ${currentData.Column12} of lull in recent months or years.
+2. Dont ues data including forecasted values or CAGR in the results, it must and mandatory.  
+3. Use business news, stock market updates, and official websites of relevant government bodies from specific countries or globally to get data. Ensure the data is current and specific to ${currentData.Column2}. 
+4. Each paragraph should have at least 60 or more Characters. 
+5. The information should be related and included with letest and recent investment or  merger or partnership, inovation or new product or service launch in recpective market which is related to above keyplayers  with each point covering significant updates or developments but make sure this is must related to lull or industry, not other industry detail. 
+6. Focus on concrete events or innovations by key players - These keyplayers ${currentData.Column12} in ${currentData.Column2}. 
+7. Exclude any source names or company names unless they are one of the key players in ${currentData.Column12} insted of using their name only use their info or data.
+8. Ensure the data is not sourced from restricted domains such as *Verified Market Research* or *Market Research Intellect* or verified market reports
+9. The data should be presented in at least three or five paragraphs, each structured with relevant and specific information related ${currentData.Column2} and this mentioned keyplayers 
+10. ensure data collected is in rewrite format not same to same as like source data structured
+11. Only give four paragraph in html format (<ul><li>paragraph</li> other 3...</ul>), neither give any images nor refrences or any other text.`
     };
 
     return (
