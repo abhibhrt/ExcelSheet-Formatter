@@ -80,10 +80,10 @@ export default function Onpage({ jsonData }) {
 prompt1: `Write a Growth Paragraph And Drivers Paragraph on ${currentData.Column2} in 90 And 100 Word respectively, just write the paragraph don't include any other text and always split both paragraph with <br><br> tag.`,
 prompt2: `1. Write ${currentData.Column2} Dynamics (Categories - Market Drivers:, Market Challenges:, Market Trends:) in HTML format.
 2. Write 4 points for each Category, must be unique point, no need to paraphase.
-3. make sure every point having atleast 100 to 120 words with unique data.
+3. make sure every point having atleast 120 to 150 words with unique data.
 4. make sure that not having any company name and not copywrite content.
 5. write point title and then its description for Example (title : description )
-6. write each category in h3 tag like <h4>Market Drivers:</h4>.
+6. write each category in h4 tag like <h4>Market Drivers:</h4>.
 7. keep same structure as <ol><li><strong>title should be here:</strong>description should be here</li></ol>`,
 
 prompt3: `1. introduction and future scope with these keyplayers, ${currentData.Column12}, make sure its having related detail to this ${currentData.Column11} or Industry in positive way with add some important info releted to each keyplayers in one sentence in ordered list
@@ -107,7 +107,7 @@ prompt4: `1. Provide  the latest developments and  innovations or investments or
 7. Exclude any source names or company names unless they are one of the key players in ${currentData.Column12} insted of using their name only use their info or data.
 8. Ensure the data is not sourced from restricted domains such as *Verified Market Research* or *Market Research Intellect* or verified market reports
 9. The data should be presented in at least three or five paragraphs, each structured with relevant and specific information related ${currentData.Column2} and this mentioned keyplayers 
-10. ensure data collected is in rewrite format not same to same as like source data structured
+10. ensure data collected is in rewrite format not same to same as like source data structured, never include source refrence in paragraph.
 11. Only give four paragraph in html format (<ul><li>paragraph</li> other 3...</ul>), neither give any images nor refrences or any other text.`
     };
 
