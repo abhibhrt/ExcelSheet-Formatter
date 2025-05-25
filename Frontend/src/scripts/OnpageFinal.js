@@ -4,7 +4,11 @@ import '../stylesheets/onpage.css';
 
 export default function MarketResearchReport({ data, fax }) {
   const editorRef = useRef(null);
- 
+
+  const keyPlayersListMatch = fax.para3.match(/<h3>By Key Players<\/h3>\s*<ul>[\s\S]*?<\/ul>/);
+  const keyPlayersUlOnly = keyPlayersListMatch ? keyPlayersListMatch[0].replace(/<h3>By Key Players<\/h3>\s*/, '') : '';
+  const applicationsAndProductsOnly = fax.para3.replace(/<h3>By Key Players<\/h3>\s*<ul>[\s\S]*?<\/ul>/, '');
+
   const richContent = `
     <h2>${data.Column2} and Projections</h2>
     <p>The <strong>${data.Column2}</strong> was valued at <strong style="color:#ca7d00">USD ${data.Column6}
@@ -28,7 +32,7 @@ export default function MarketResearchReport({ data, fax }) {
     ${fax.para2}
     <h2>${data.Column2} Segmentations</h2>
     </ul>
-    ${fax.para3}
+    ${applicationsAndProductsOnly}
     <h3>By&nbsp;Region</h3>
     <h4>North America</h4>
     <ul>
@@ -69,8 +73,13 @@ export default function MarketResearchReport({ data, fax }) {
       <li>South Africa</li>
       <li>Others</li>
     </ul>
+    <h3>By Key Players</h3>
+    <p>The <strong>${data.Column2}</strong> offers an in-depth analysis of both established and emerging competitors within the market. It includes a comprehensive list of prominent companies, organized based on the types of products they offer and other relevant market criteria. In addition to profiling these businesses, the report provides key information about each participant's entry into the market, offering valuable context for the analysts involved in the study. This detailed information enhances the understanding of the competitive landscape and supports strategic decision-making within the industry.</p>
+    ${keyPlayersUlOnly}
     <h3>Recent Developement In ${data.Column2}</h3>
     ${fax.para4}
+    <h4>Global ${data.Column2}: Research Methodology</h4>
+    <p>The research methodology includes both primary and secondary research, as well as expert panel reviews. Secondary research utilises press releases, company annual reports, research papers related to the industry, industry periodicals, trade journals, government websites, and associations to collect precise data on business expansion opportunities. Primary research entails conducting telephone interviews, sending questionnaires via email, and, in some instances, engaging in face-to-face interactions with a variety of industry experts in various geographic locations. Typically, primary interviews are ongoing to obtain current market insights and validate the existing data analysis. The primary interviews provide information on crucial factors such as market trends, market size, the competitive landscape, growth trends, and future prospects. These factors contribute to the validation and reinforcement of secondary research findings and to the growth of the analysis team’s market knowledge.</p>
     <h4>Reasons to Purchase this Report:</h4>
     <div class="list-container">
       <p style="margin:0px;">• The market is segmented based on both economic and non-economic criteria, and both a
@@ -169,7 +178,7 @@ export default function MarketResearchReport({ data, fax }) {
 
   return (
     <div className="blog-cont">
-      <div id='data-render' style={{height: '100vh'}}  ref={editorRef} /> 
+      <div id='data-render' style={{ height: '100vh' }} ref={editorRef} />
     </div>
   );
 }
