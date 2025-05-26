@@ -119,7 +119,7 @@ function Tags() {
                                             >
                                                 {tag.company}
                                             </span>
-                                            &#8203;
+                                            &#8203;<br/>
                                         </span>
                                     ))}
                                 </div>
