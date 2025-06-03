@@ -12,7 +12,7 @@ export default function MarketResearchReport({ data, fax }) {
   const richContent = `
     <h2>${data.Column2} and Projections</h2>
     <p>The <strong>${data.Column2}</strong> was valued at USD ${data.Column6}
-        ${data.Column9} in 2025</strong> and is expected to reach <strong style="color:#993300">USD ${data.Column7}
+        ${data.Column9} in 2024</strong> and is expected to reach <strong style="color:#993300">USD ${data.Column7}
         ${data.Column9} by 2033</strong>, growing at a <strong style="color:#993300">CAGR of ${data.Column8}% from 2026 to
         2033.</strong> The research includes several divisions as well as an analysis of the trends and factors
       influencing and playing a substantial role in the market.</p>
