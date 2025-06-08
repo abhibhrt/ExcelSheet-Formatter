@@ -15,8 +15,10 @@ export default function MarketResearchReport({ data, fax }) {
         href="https://www.marketresearchintellect.com/download-sample/?rid=${data.Column1}" target="_blank"
         rel="noopener noreferrer"><u>https://www.marketresearchintellect.com/download-sample/?rid=${data.Column1}</u></a></p>
 
-    <p><img src="${data.Column5}" title="${data.Column2} Size &amp; Scope" width="1400" /></p>
+    <p><img src="https://www.marketresearchintellect.com/images/05-25/${data.Column4.split('25/')}.webp" title="${data.Column2} Size &amp; Scope" width="1400" /></p>
+
     <div style="text-align: center;"><strong class="text-danger blink">To Get Detailed Analysis &gt;</strong> <a href="https://www.marketresearchintellect.com/download-sample/?rid=${data.Column1}" target="_blank"><strong>Request Sample Report</strong></a></div>
+    <h3>Market Study</h3>
     ${fax.para5}
     <h3>${data.Column2} Dynamics</h3>
     ${fax.para2}
