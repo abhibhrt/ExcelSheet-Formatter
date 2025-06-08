@@ -113,13 +113,9 @@ prompt4: `1. Provide  the latest developments and  innovations or investments or
     
 prompt5: `
 Rewrite with profesional words and ifno in 300 to 500 words without any external link or source name and only in paragraph form - no bullets points should be added  ${currentData.Column2} report is meticulously tailored for a specific market segment, offering a detailed and thorough overview of an industry or multiple sectors. This all-encompassing report leverages both quantitative and qualitative methods to project trends and developments from 2026 to 2033 of ${currentData.Column2}. It covers a broad spectrum of factors (with example in one sentence), including product pricing strategies, the market reach of products(if possible- with example in one sentence) and services across national and regional levels, and the dynamics within the primary market as well as its submarkets(with example if possible in one sentence). Furthermore, the analysis takes into account the industries that utilize end applications(with example in one sentence), consumer behaviour, and the political, economic, and social environments in key countries.
-
 The structured segmentation in the report ensures a multifaceted understanding of the ${currentData.Column2} from several perspectives. It divides the market into groups based on various classification criteria, including end-use industries and product/service types. It also includes other relevant groups that are in line with how the market is currently functioning. The report’s in-depth analysis of crucial elements covers market prospects, the competitive landscape, and corporate profiles.
-
 The assessment of the major industry participants is a crucial part of this analysis. Their product/service portfolios, financial standing, noteworthy business advancements, strategic methods, market positioning, geographic reach, and other important indicators are evaluated as the foundation of this analysis. The top three to five players also undergo a SWOT analysis, which identifies their opportunities, threats, vulnerabilities, and strengths. The chapter also discusses competitive threats, key success criteria, and the big corporations' present strategic priorities. Together, these insights aid in the development of well-informed marketing plans and assist companies in navigating the always-changing ${currentData.Column2} environment.
-
 at final give all paragraphs in html format like <p>first paragraph</p> ... and other 3-4 paragraphs.
-
 `
 };
 
