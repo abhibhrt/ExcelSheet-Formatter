@@ -106,7 +106,7 @@
 /* Input Row Layout */
 .data-input-row {
   display: flex;
-  gap: 1.5rem;
+  gap: 1rem;
   margin-bottom: 2rem;
   padding-bottom: 1rem;
 }
@@ -114,11 +114,10 @@
 .data-input-column {
   display: flex;
   flex-direction: column;
-  gap: 0.8rem;
-  min-width: 280px;
+  min-width: 250px;
   flex: 1;
   background-color: var(--secondary-bg);
-  padding: 1.5rem;
+  padding: .3rem;
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
   border: 1px solid rgba(156, 39, 176, 0.2);
