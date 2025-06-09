@@ -16,8 +16,15 @@ export default function MarketResearchReport({ data, fax }) {
         rel="noopener noreferrer"><u>https://www.marketresearchintellect.com/download-sample/?rid=${data.Column1}</u></a></p>
 
     <p><img src="${data.Column5}" title="${data.Column2} Size &amp; Scope" width="1400" /></p>
-
-    <div style="text-align: center;"><strong class="text-danger blink">To Get Detailed Analysis &gt;</strong> <a href="https://www.marketresearchintellect.com/download-sample/?rid=${data.Column1}" target="_blank"><strong>Request Sample Report</strong></a></div>
+    <div class="download-box">
+    <div style=" display: flex; justify-content: space-between; align-items: center; width: 100%; max-width: 1500px; margin: 10px auto; box-sizing: border-box; font-family: Arial, sans-serif;">
+      <div style="color: #de3944; font-size: 16px; flex: 1; text-align: center; border: 3px solid #de3944; padding: 5.6px 20px;">
+        Discover the Major Trends Driving This Market
+      </div>
+      <a href="https://www.marketresearchintellect.com/download-sample/?rid=${data.Column1}" download style="background-color: #de3944; color: white; text-decoration: none; padding: 8px 20px; font-weight: bold; width: 20%; text-align:center;">
+        Download PDF
+      </a>
+    </div>
     <h3>Market Study</h3>
     ${fax.para5}
     <h3>${data.Column2} Dynamics</h3>
