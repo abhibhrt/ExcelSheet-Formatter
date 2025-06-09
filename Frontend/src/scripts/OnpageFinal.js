@@ -16,15 +16,18 @@ export default function MarketResearchReport({ data, fax }) {
         rel="noopener noreferrer"><u>https://www.marketresearchintellect.com/download-sample/?rid=${data.Column1}</u></a></p>
 
     <p><img src="${data.Column5}" title="${data.Column2} Size &amp; Scope" width="1400" /></p>
-    <div class="download-box">
-    <div style=" display: flex; justify-content: space-between; align-items: center; width: 100%; max-width: 1500px; margin: 10px auto; box-sizing: border-box; font-family: Arial, sans-serif;">
-      <div style="color: #de3944; font-size: 16px; flex: 1; text-align: center; border: 3px solid #de3944; padding: 5.6px 20px;">
-        Discover the Major Trends Driving This Market
-      </div>
-      <a href="https://www.marketresearchintellect.com/download-sample/?rid=${data.Column1}" style="background-color: #de3944; color: white; text-decoration: none; padding: 8px 20px; font-weight: bold; width: 20%; text-align:center;">
-        Download PDF
-      </a>
-    </div>
+
+    <div style="display: flex; border: 3px solid #dc3545; margin-top: 1rem; margin-bottom: 1rem;">
+  <div style="padding: 0.3rem; flex-grow: 1; text-align: center; font-weight: 700;">
+    <p style="margin: 0; color: #dc3545; font-size: 1rem;">Discover the Major Trends Driving This Market</p>
+  </div>
+  <a href="https://www.marketresearchintellect.com/download-sample/?rid=152204" style="font-size: 1rem; margin-bottom: 0; padding-left: 3rem; padding-right: 3rem; padding-top: 0.3rem; padding-bottom: 0.3rem; text-align: center; color: white !important; background-color: #dc3545 !important; font-weight: 700; display: block; text-decoration: none;">
+    Download PDF
+  </a>
+</div>
+
+
+
     <h3>Market Study</h3>
     ${fax.para5}
     <h3>${data.Column2} Dynamics</h3>
