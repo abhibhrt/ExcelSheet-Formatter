@@ -21,7 +21,7 @@ export default function MarketResearchReport({ data, fax }) {
       <div style="color: #de3944; font-size: 16px; flex: 1; text-align: center; border: 3px solid #de3944; padding: 5.6px 20px;">
         Discover the Major Trends Driving This Market
       </div>
-      <a href="https://www.marketresearchintellect.com/download-sample/?rid=${data.Column1}" download style="background-color: #de3944; color: white; text-decoration: none; padding: 8px 20px; font-weight: bold; width: 20%; text-align:center;">
+      <a href="https://www.marketresearchintellect.com/download-sample/?rid=${data.Column1}" style="background-color: #de3944; color: white; text-decoration: none; padding: 8px 20px; font-weight: bold; width: 20%; text-align:center;">
         Download PDF
       </a>
     </div>
