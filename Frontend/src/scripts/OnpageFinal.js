@@ -11,23 +11,11 @@ export default function MarketResearchReport({ data, fax }) {
 
   const richContent = `
     <p>${fax.para1}</p>
-    <p><strong style="color:#ca7d00">&gt;&gt;&gt;Download the Sample Report Now:-</strong> <a
-        href="https://www.marketresearchintellect.com/download-sample/?rid=${data.Column1}" target="_blank"
-        rel="noopener noreferrer"><u>https://www.marketresearchintellect.com/download-sample/?rid=${data.Column1}</u></a></p>
-
-    <p><img src="${data.Column5}" title="${data.Column2} Size &amp; Scope" width="1400" /></p>
-
-    <div style="display: flex; border: 3px solid #dc3545; margin-top: 1rem; margin-bottom: 1rem;">
-  <div style="padding: 0.3rem; flex-grow: 1; text-align: center; font-weight: 700;">
-    <p style="margin: 0; color: #dc3545; font-size: 1rem;">Discover the Major Trends Driving This Market</p>
-  </div>
-  <a href="https://www.marketresearchintellect.com/download-sample/?rid=152204" style="font-size: 1rem; margin-bottom: 0; padding-left: 3rem; padding-right: 3rem; padding-top: 0.3rem; padding-bottom: 0.3rem; text-align: center; color: white !important; background-color: #dc3545 !important; font-weight: 700; display: block; text-decoration: none;">
-    Download PDF
-  </a>
-</div>
-
-
-
+    <p><strong style="color:#ca7d00">&gt;&gt;&gt;Download the Sample Report Now:-</strong> 
+    <a href="https://www.marketresearchintellect.com/download-sample/?rid=${data.Column1}" target="_blank" rel="noopener noreferrer">
+      <u>https://www.marketresearchintellect.com/download-sample/?rid=${data.Column1}</u>
+    </a>
+    </p>
     <h3>Market Study</h3>
     ${fax.para5}
     <h3>${data.Column2} Dynamics</h3>
