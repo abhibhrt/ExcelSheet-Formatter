@@ -78,7 +78,11 @@ export default function Onpage({ jsonData }) {
     };
 
     const prompts = {
-prompt1: `Write a 4 paragraphs  including its global and regional growth trends, key drivers, opportunities, challenges, and emerging technologies on ${currentData.Column2} in 90 And 100 Word respectively, just write the paragraph don't include any other text or heading and always split all paragraph with <br><br> tag.`,
+prompt1: `1) Provide a comprehensive, human-written SEO Friendly market overview and growth para of the ${currentData.Column2} , AND
+2) in second paragraph add introduction of ${currentData.Column2} (exclude market word in this just give intro of the topic or thing before market word ).
+3) Then provide ${currentData.Column2} including its global and regional growth trends, key drivers, opportunities, challenges, and emerging technologies. The content should be 300–500 words, detailed, and fact-rich.  Do not include any forecasted values or citations, but ensure the content feels professional, analytical, and informative like a market research report summary. and remove  dashes (Not all) or symbols (Not all)  used to highlight important words. Simply include the key words or sentences directly without it.
+Give all paragraphs in html format in <p> tag and only give 3 paragraphs.`,
+
 prompt2: `1. Write ${currentData.Column2} Dynamics (Categories - ${currentData.Column2} Drivers:, ${currentData.Column2} Market Challenges:, ${currentData.Column2} Market Trends:) in HTML format.
 2. Write 4 points for each Category, must be unique point, no need to paraphase.
 3. make sure every point having atleast 120 to 150 words with unique data.
@@ -93,11 +97,11 @@ prompt3: `1. introduction and future scope with these keyplayers, ${currentData.
 4. give always in html format by keeping below structure:
 <h3>By Applications</h3> 
 <ul> <li style="margin-bottom:10px;"><strong>Application Area:</strong> description upto 35-45 words</li> ... </ul>
-<h3>By Products</h3> 
+<h3>By Products</h3>
 <ul> <li style="margin-bottom:10px;"><strong>Product Type:</strong> description upto 35-45 words</li> ... </ul>
 <h3>By Key Players</h3> 
-<ul><li style="margin-bottom:10px;"><strong>Company Name:</strong> One-sentence positive insight or market-related contribution.</li> ... </ul>`,
-        
+<p>write details here about the topic in positive way </p>
+<ul><li style="margin-bottom:10px;"><strong>Company Name:</strong> One-sentence positive insight or market-related contribution.</li> ... </ul>`,      
 
 prompt4: `1. Provide  the latest developments and  innovations or investments or mergers, acquisitions, and partnerships related to the key player such as ${currentData.Column12} of lull in recent months or years.
 2. Dont ues data including forecasted values or CAGR in the results, it must and mandatory.  
@@ -109,13 +113,13 @@ prompt4: `1. Provide  the latest developments and  innovations or investments or
 8. Ensure the data is not sourced from restricted domains such as *Verified Market Research* or *Market Research Intellect* or verified market reports
 9. The data should be presented in at least three or five paragraphs, each structured with relevant and specific information related ${currentData.Column2} and this mentioned keyplayers 
 10. ensure data collected is in rewrite format not same to same as like source data structured, never include source refrence in paragraph.
-11. Only give four paragraph in html format (<ul><li style="margin-bottom:10px;" >paragraph</li> other 3...</ul>), neither give any images nor refrences or any other text.`,
+11. Only give four paragraph in html format (<ul><li style="margin-bottom:10px;" >paragraph</li> other 2...</ul>), neither give any images nor refrences or any other text, only give overall 3 paragraphs`,
     
 prompt5: `
 Rewrite with profesional words and ifno in 300 to 500 words without any external link or source name and only in paragraph form - no bullets points should be added  ${currentData.Column2} report is meticulously tailored for a specific market segment, offering a detailed and thorough overview of an industry or multiple sectors. This all-encompassing report leverages both quantitative and qualitative methods to project trends and developments from 2026 to 2033 of ${currentData.Column2}. It covers a broad spectrum of factors (with example in one sentence), including product pricing strategies, the market reach of products(if possible- with example in one sentence) and services across national and regional levels, and the dynamics within the primary market as well as its submarkets(with example if possible in one sentence). Furthermore, the analysis takes into account the industries that utilize end applications(with example in one sentence), consumer behaviour, and the political, economic, and social environments in key countries.
 The structured segmentation in the report ensures a multifaceted understanding of the ${currentData.Column2} from several perspectives. It divides the market into groups based on various classification criteria, including end-use industries and product/service types. It also includes other relevant groups that are in line with how the market is currently functioning. The report’s in-depth analysis of crucial elements covers market prospects, the competitive landscape, and corporate profiles.
 The assessment of the major industry participants is a crucial part of this analysis. Their product/service portfolios, financial standing, noteworthy business advancements, strategic methods, market positioning, geographic reach, and other important indicators are evaluated as the foundation of this analysis. The top three to five players also undergo a SWOT analysis, which identifies their opportunities, threats, vulnerabilities, and strengths. The chapter also discusses competitive threats, key success criteria, and the big corporations' present strategic priorities. Together, these insights aid in the development of well-informed marketing plans and assist companies in navigating the always-changing ${currentData.Column2} environment.
-at final give all paragraphs in html format like <p>first paragraph</p> ... and other 3-4 paragraphs.
+at final give all paragraphs in html format like <p>first paragraph</p> ... and other fixed 3 paragraphs.
 `
 };
 

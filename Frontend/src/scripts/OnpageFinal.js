@@ -11,11 +11,6 @@ export default function MarketResearchReport({ data, fax }) {
 
   const richContent = `
     <p>${fax.para1}</p>
-    <p><strong style="color:#ca7d00">&gt;&gt;&gt;Download the Sample Report Now:-</strong> 
-    <a href="https://www.marketresearchintellect.com/download-sample/?rid=${data.Column1}" target="_blank" rel="noopener noreferrer">
-      <u>https://www.marketresearchintellect.com/download-sample/?rid=${data.Column1}</u>
-    </a>
-    </p>
     <h3>Market Study</h3>
     ${fax.para5}
     <h3>${data.Column2} Dynamics</h3>
@@ -70,13 +65,7 @@ export default function MarketResearchReport({ data, fax }) {
     ${fax.para4}
     <h4>Global ${data.Column2}: Research Methodology</h4>
     <p>The research methodology includes both primary and secondary research, as well as expert panel reviews. Secondary research utilises press releases, company annual reports, research papers related to the industry, industry periodicals, trade journals, government websites, and associations to collect precise data on business expansion opportunities. Primary research entails conducting telephone interviews, sending questionnaires via email, and, in some instances, engaging in face-to-face interactions with a variety of industry experts in various geographic locations. Typically, primary interviews are ongoing to obtain current market insights and validate the existing data analysis. The primary interviews provide information on crucial factors such as market trends, market size, the competitive landscape, growth trends, and future prospects. These factors contribute to the validation and reinforcement of secondary research findings and to the growth of the analysis team’s market knowledge.</p>
-    <h4>Customization of the Report</h4>
-    <p>• In case of any queries or customization requirements please connect with our sales team, who will ensure that
-      your requirements are met.</p>
-    <p><strong style="color:#ca7d00">&gt;&gt;&gt; Ask For Discount @-</strong> <a
-        href="https://www.marketresearchintellect.com/ask-for-discount/?rid=${data.Column1}" target="_blank"
-        rel="noopener noreferrer"><u>https://www.marketresearchintellect.com/ask-for-discount/?rid=${data.Column1}</u></a></p>
-  `;
+     `;
 
   useEffect(() => {
     const script = document.createElement("script");
