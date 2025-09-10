@@ -7,6 +7,7 @@ function Pulse({ jsonData }) {
     const [title, setTitle] = useState(null);
     const [content, setContent] = useState(null);
     const [tags, setTags] = useState(null);
+    const [pageUrl, setPage] = useState(null);
     const [currentIndex, setCurrentIndex] = useState(0);
     const [time, setTime] = useState("Set Time");
     const { showAlert, AlertComponent } = useAlert();
@@ -17,6 +18,7 @@ function Pulse({ jsonData }) {
             setTitle(currentData.Column1);
             setContent(currentData.Column2);
             setTags(currentData.Column3);
+            setPage(currentData.Column5)
         }
     }, [currentIndex, jsonData]);
 
@@ -49,7 +51,7 @@ function Pulse({ jsonData }) {
     };
 
     const handleTime = () => {
-        if(time === "Set Time") {
+        if (time === "Set Time") {
             setTime(prompt("Enter Time:") || "Set Time");
         } else {
             navigator.clipboard.writeText(time);
@@ -58,10 +60,10 @@ function Pulse({ jsonData }) {
 
     return (
         <div className="data-viewer">
-            <AlertComponent/>
+            <AlertComponent />
             <div className="data-navigation">
-                <button 
-                    className="data-navigation__button" 
+                <button
+                    className="data-navigation__button"
                     onClick={handlePrev}
                     disabled={currentIndex === 0}
                 >
@@ -76,8 +78,8 @@ function Pulse({ jsonData }) {
                         if (val >= 0 && val < jsonData.length) setCurrentIndex(val);
                     }}
                 />
-                <button 
-                    className="data-navigation__button" 
+                <button
+                    className="data-navigation__button"
                     onClick={handleNext}
                     disabled={currentIndex === jsonData.length - 1}
                 >
@@ -97,20 +99,22 @@ function Pulse({ jsonData }) {
                 <button className="data-action__button" onClick={() => handleCopyText(tags)}>
                     Copy Tags
                 </button>
+                <button className="data-action__button" onClick={() => handleCopyText(pageUrl)} >
+                    Page URL</button>
             </div>
             {jsonData.length > 0 ? (
                 <div className="data-content">
                     <h2 className="data-title">{title}</h2>
-                    <div 
-                        id="data-html-content" 
-                        className="data-html-content" 
-                        dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(content) }} 
+                    <div
+                        id="data-html-content"
+                        className="data-html-content"
+                        dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(content) }}
                     />
                     <div className="data-tags">{tags}</div>
                 </div>
             ) : (
                 <div className="data-upload-warning">
-                    <p>Please! First Upload Excel (.xlsx) File Format</p> <i className="fa fa-warning"/>
+                    <p>Please! First Upload Excel (.xlsx) File Format</p> <i className="fa fa-warning" />
                 </div>
             )}
         </div>

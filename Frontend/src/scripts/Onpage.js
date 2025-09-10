@@ -89,19 +89,19 @@ prompt2: `1. Write ${currentData.Column2} Dynamics (Categories - ${currentData.C
 4. make sure that not having any company name and not copywrite content.
 5. write point title and then its description for Example (title : description )
 6. write each category in h4 tag like <h4>${currentData.Column2} Drivers:</h4>.
-7. keep same structure as <ul><li style="margin-bottom:10px;"><strong>title should be here:</strong>description should be here</li></ul>`,
+7. keep same structure as <ul><li><p><strong>title should be here:</strong>description should be here</p></li></ul>`,
 
 prompt3: `1. introduction and future scope with these keyplayers, ${currentData.Column12}, make sure its having related detail to this ${currentData.Column11} or Industry in positive way with add some important info releted to each keyplayers in one sentence in ordered list
 2. These applications ${currentData.Column11}  with info and also add some important info releted to each Application in one sentence in ordered list 
 3. also add these types ${currentData.Column10} with info also add some important info releted to each types in one sentence in ordered list.
 4. give always in html format by keeping below structure:
 <h3>By Applications</h3> 
-<ul> <li style="margin-bottom:10px;"><strong>Application Area:</strong> description upto 35-45 words</li> ... </ul>
+<ul><li><p/><strong>Application Area:</strong> description upto 35-45 words </p></li> ... </ul>
 <h3>By Products</h3>
-<ul> <li style="margin-bottom:10px;"><strong>Product Type:</strong> description upto 35-45 words</li> ... </ul>
+<ul> <li><p/><strong>Product Type:</strong> description upto 35-45 words </p></li> ... </ul>
 <h3>By Key Players</h3> 
 <p>write details here about the topic in positive way </p>
-<ul><li style="margin-bottom:10px;"><strong>Company Name:</strong> One-sentence positive insight or market-related contribution.</li> ... </ul>`,      
+<ul><li><p/><strong>Company Name:</strong> One-sentence positive insight or market-related contribution. </p></li> ... </ul>`,      
 
 prompt4: `1. Provide  the latest developments and  innovations or investments or mergers, acquisitions, and partnerships related to the key player such as ${currentData.Column12} of lull in recent months or years.
 2. Dont ues data including forecasted values or CAGR in the results, it must and mandatory.  
@@ -111,9 +111,9 @@ prompt4: `1. Provide  the latest developments and  innovations or investments or
 6. Focus on concrete events or innovations by key players - These keyplayers ${currentData.Column12} in ${currentData.Column2}. 
 7. Exclude any source names or company names unless they are one of the key players in ${currentData.Column12} insted of using their name only use their info or data.
 8. Ensure the data is not sourced from restricted domains such as *Verified Market Research* or *Market Research Intellect* or verified market reports
-9. The data should be presented in at least three or five paragraphs, each structured with relevant and specific information related ${currentData.Column2} and this mentioned keyplayers 
+9. The data should be presented in fixed 3 paragraphs, each structured with relevant and specific information related ${currentData.Column2} and this mentioned keyplayers 
 10. ensure data collected is in rewrite format not same to same as like source data structured, never include source refrence in paragraph.
-11. Only give four paragraph in html format (<ul><li style="margin-bottom:10px;" >paragraph</li> other 2...</ul>), neither give any images nor refrences or any other text, only give overall 3 paragraphs`,
+11. Only give four paragraph in html format (<ul><li >paragraph<br/><br/></li> other 2...</ul>), neither give any images nor refrences or any other text.`,
     
 prompt5: `
 Rewrite with profesional words and ifno in 300 to 500 words without any external link or source name and only in paragraph form - no bullets points should be added  ${currentData.Column2} report is meticulously tailored for a specific market segment, offering a detailed and thorough overview of an industry or multiple sectors. This all-encompassing report leverages both quantitative and qualitative methods to project trends and developments from 2026 to 2033 of ${currentData.Column2}. It covers a broad spectrum of factors (with example in one sentence), including product pricing strategies, the market reach of products(if possible- with example in one sentence) and services across national and regional levels, and the dynamics within the primary market as well as its submarkets(with example if possible in one sentence). Furthermore, the analysis takes into account the industries that utilize end applications(with example in one sentence), consumer behaviour, and the political, economic, and social environments in key countries.
