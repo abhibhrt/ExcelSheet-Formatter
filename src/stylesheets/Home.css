@@ -1,0 +1,302 @@
+/* Base Styles */
+:root {
+    --primary-bg: #121212;
+    --secondary-bg: #202020a8;
+    --accent-color: #9c27b0;
+    --accent-hover: #7b1fa2;
+    --text-primary: #f5f5f5;
+    --text-secondary: #bdbdbd;
+    --success: #4caf50;
+    --warning: #ff9800;
+    --error: #f44336;
+    --border-radius: 8px;
+    --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    --transition: all 0.3s ease;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  body{
+    background-image: url('https://cdn.wallpapersafari.com/38/2/cXyvkH.jpg');
+    background-size: 100%;
+  }
+  
+  html, body {
+    background-color: var(--primary-bg);
+    color: var(--text-primary);
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  
+  /* App Component Styles */
+  .app-navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--secondary-bg);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    box-shadow: var(--box-shadow);
+    border-bottom: 1px solid rgba(156, 39, 176, 0.3);
+  }
+  
+  .app-navbar__logo-text {
+    font-size: 1.8rem;
+    font-weight: 700;
+    background: linear-gradient(90deg, var(--accent-color), #e91e63);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    letter-spacing: 1px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+  }
+  
+  .app-navbar__links {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+  }
+  
+  .app-navbar__link {
+    color: var(--text-primary);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: var(--border-radius);
+    transition: var(--transition);
+    font-weight: 500;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .app-navbar__link::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--accent-color);
+    transition: var(--transition);
+  }
+  
+  .app-navbar__link:hover::before {
+    width: 100%;
+  }
+  
+  .app-navbar__link.active {
+    color: var(--accent-color);
+  }
+  
+  .app-navbar__link.active::before {
+    width: 100%;
+  }
+  
+  .app-navbar-spacer {
+    height: 80px;
+  }
+  
+  .app-main-content {
+    flex: 1;
+  }
+  
+  /* Home Component Styles */
+  .home-container {
+    padding: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .home-header {
+    text-align: center;
+    padding: 2rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .home-header__title {
+    font-size: 2rem;
+    background: linear-gradient(90deg, var(--accent-color), #e91e63);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  
+  .home-upload-section {
+    background-color: var(--secondary-bg);
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    margin-bottom: 5px;
+    text-align: center;
+    box-shadow: var(--box-shadow);
+    border: 1px dashed rgba(156, 39, 176, 0.5);
+    transition: var(--transition);
+  }
+  
+  .home-upload-section:hover {
+    border-color: var(--accent-color);
+  }
+  
+  .home-upload__input {
+    display: none;
+  }
+  
+  .home-upload__label {
+    display: inline-block;
+    background:  radial-gradient(circle, #8b002e, #3a0013);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: var(--transition);
+    font-weight: 500;
+    border: 1px solid #e41ff6;
+    font-size: 15px;
+  }
+  
+  .home-upload__label:hover {
+    background-color: var(--accent-hover);
+    transform: translateY(-2px);
+  }
+  
+  .home-info-section {
+    background-color: var(--secondary-bg);
+    padding: 1.2rem;
+    border-radius: var(--border-radius);
+    margin-bottom: 1rem;
+    box-shadow: var(--box-shadow);
+  }
+  
+  .home-info__title {
+    margin-bottom: 1.3rem;
+    color: var(--accent-color);
+    font-size: 1.8rem;
+  }
+  
+  .home-instructions {
+    padding-left: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  .home-instruction__item {
+    margin-bottom: 1rem;
+    color: var(--text-secondary);
+  }
+  
+  .home-footer {
+    text-align: center;
+    margin-top: auto;
+    padding: 10px;
+    color: var(--text-secondary);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .home-footer__link {
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: var(--transition);
+    font-family: Brush Script MT, Brush Script Std, cursive;
+  }
+  
+  .home-footer__link:hover {
+    color: #e91e63;
+    text-decoration: underline;
+  }
+  
+  .home-footer__copyright {
+    font-size: 0.9rem;
+  }
+  
+  .home-footer__author {
+    color: var(--accent-color);
+    font-size: 1.3rem;
+    text-decoration: none;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+  }
+  
+  /* Upload Status Styles */
+  .upload-status {
+    margin-bottom: 1rem;
+  }
+  
+  .upload-status--initial {
+    color: var(--error);
+  }
+  
+  .upload-status--loading {
+    color: var(--warning);
+  }
+  
+  .upload-status--success {
+    color: var(--success);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .app-navbar {
+      flex-direction: column;
+      padding: 0.1rem;
+    }
+    
+    .app-navbar__logo-text {
+      margin-bottom: 0rem;
+    }
+    
+    .app-navbar__links {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.8rem;
+    }
+    
+    .home-header__title {
+      font-size: 2rem;
+    }
+    
+    .home-container {
+      padding: 1rem;
+    }
+    
+    .home-upload-section, .home-info-section {
+      padding: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .home-header__title {
+      font-size: 1.8rem;
+    }
+    
+    .home-header__subtitle {
+      font-size: 1rem;
+    }
+    
+    .home-instructions {
+      padding-left: 1rem;
+    }
+    
+    .home-info__title {
+      font-size: 1.5rem;
+    }
+  }
+  
+  /* ============ scrollbar =========== */
+  ::-webkit-scrollbar {
+    width: 2px;
+    background: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--accent-color);
+    border-radius: 50px;
+  }
